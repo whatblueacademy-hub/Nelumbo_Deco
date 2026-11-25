@@ -1,0 +1,1636 @@
+<!-- Copia HTML de Nelumbo Deco. Catálogo inicial del código; no incluye datos del servidor. Fuentes y librerías externas requieren Internet. Administración y registro de pedidos requieren backend. -->
+<!doctype html><html lang="es"><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}
+.product-price{font-size:1.25rem;color:var(--bronze)}.cart-foot{max-height:60vh;overflow:auto}.cart-foot input{width:100%;padding:9px;border:1px solid #c8bba6;background:transparent;margin:4px 0 10px}.cart-foot label{display:block;font-size:12px}.cart-foot .btn{margin-top:8px}.admin-link{font-size:12px;opacity:.65;display:block;text-align:center;padding:18px}
+</style></head><body>
+<title>Nelumbo Deco</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Nelumbo Deco — lámparas hechas a pedido. Recorré la colección y probá cada pieza en tu propio espacio con Nelumbo Estudio visual.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..600;1,6..96,400..500&family=Jost:wght@300;400;500&family=DM+Mono:wght@400&display=swap">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Store","name":"Nelumbo Deco","url":"https://www.nelumbodeco.com.ar","sameAs":["https://www.instagram.com/nelumbodeco/"],"telephone":"+54 9 11 5982-6889",
+"makesOffer":[{"@type":"Offer","itemOffered":{"@type":"Product","name":"RINNA","category":"Lámparas colgantes","brand":"Nelumbo Deco"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Danna","category":"Lámparas colgantes","brand":"Nelumbo Deco"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Velador RUNA","category":"Veladores","brand":"Nelumbo Deco"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"UNDHA","brand":"Nelumbo Deco"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"WIDYA","brand":"Nelumbo Deco"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Lámpara 3D PLEGORA","brand":"Nelumbo Deco"}},{"@type":"Offer","itemOffered":{"@type":"Product","name":"Lámpara BALI","brand":"Nelumbo Deco"}}]}
+</script>
+<style>
+/* Layout concept: a lighting house's printed catalogue — objects photographed on sand plinths, rooms shown at night, and the page itself switching its light on. */
+:root{
+  --ivory:#F5F2EC; --paper:#FBFAF7; --sand:#E6DDD0; --sand-2:#DCD1C1; --stone:#C9BBA9; --bronze:#82664A; --bronze-hi:#896A49;
+  --espresso:#2E261F; --night:#F3EEE5; --night-2:#E9E1D5; --ink:#221D18; --muted:#7A6D60;
+  --line:rgba(34,29,24,.14); --on-night:#302A23; --on-night-2:#726556; --line-night:rgba(48,42,35,.16);
+  --f-display:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;
+  --f-ui:"Jost","Futura","Avenir Next","Helvetica Neue",Arial,sans-serif;
+  --f-mono:"DM Mono",ui-monospace,"SF Mono",Menlo,monospace;
+  --gut:clamp(18px,4.4vw,72px);
+  --ease:cubic-bezier(.19,1,.22,1);
+  --ease-io:cubic-bezier(.76,0,.24,1);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+html.lenis,html.lenis body{height:auto}
+.lenis.lenis-smooth{scroll-behavior:auto!important}
+body{background:var(--ivory);color:var(--ink);font-family:var(--f-ui);font-size:16px;line-height:1.6;font-weight:300;overflow-x:hidden;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:65;background:var(--night)}
+img{max-width:100%;display:block}
+button{font:inherit;color:inherit;cursor:pointer}
+a{color:inherit}
+::selection{background:var(--bronze);color:var(--night)}
+:focus-visible{outline:1.5px solid var(--bronze);outline-offset:3px}
+.wrap{padding-left:max(var(--gut),env(safe-area-inset-left,0px));padding-right:max(var(--gut),env(safe-area-inset-right,0px))}
+.eyebrow{font-weight:400;font-size:.68rem;letter-spacing:.3em;text-transform:uppercase}
+.mono{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.06em}
+.display{font-family:var(--f-display);font-weight:400;letter-spacing:-.02em;line-height:.94;text-wrap:balance;font-optical-sizing:auto}
+.display em{font-style:italic}
+.lede{font-size:clamp(1rem,1.15vw,1.14rem);max-width:38ch;color:var(--muted);margin:0}
+.night{background:var(--night);color:var(--on-night)}
+.night .lede{color:var(--on-night-2)}
+.tbd{border-bottom:1px dotted currentColor;opacity:.8;white-space:nowrap}
+.tbd::after{content:"";font-family:var(--f-mono);font-size:.6rem;opacity:.65}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.split .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.08em;margin-bottom:-.08em}
+.split .wi{display:inline-block;will-change:transform}
+
+/* Grain */
+.grain{position:fixed;inset:-50%;z-index:98;pointer-events:none;opacity:.022;mix-blend-mode:multiply;animation:grain 1.2s steps(6) infinite}
+@keyframes grain{0%{transform:translate(0,0)}20%{transform:translate(-3%,2%)}40%{transform:translate(2%,-3%)}60%{transform:translate(-2%,-1%)}80%{transform:translate(3%,3%)}100%{transform:translate(0,0)}}
+
+/* Cursor */
+.cursor{position:fixed;left:0;top:0;z-index:99;pointer-events:none;display:none;opacity:0;transition:opacity .4s}
+.c-ring{position:absolute;width:38px;height:38px;margin:-19px 0 0 -19px;border:1px solid rgba(255,255,255,.9);border-radius:50%;mix-blend-mode:difference;display:grid;place-items:center;transition:width .5s var(--ease),height .5s var(--ease),margin .5s var(--ease),background .5s var(--ease)}
+.c-ring span{font-size:.56rem;letter-spacing:.22em;text-transform:uppercase;color:#000;opacity:0;transition:opacity .3s}
+.cursor.big .c-ring{width:92px;height:92px;margin:-46px 0 0 -46px;background:#fff}
+.cursor.big .c-ring span{opacity:1}
+.cursor.sm .c-ring{width:14px;height:14px;margin:-7px 0 0 -7px;background:#fff}
+@media (pointer:fine){.cursor{display:block}}
+
+/* Buttons */
+.btn{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:.9em;padding:1.15em 1.8em;border:1px solid currentColor;background:transparent;font-family:var(--f-ui);font-size:.7rem;font-weight:400;letter-spacing:.24em;text-transform:uppercase;text-decoration:none;overflow:hidden;isolation:isolate;border-radius:999px;transition:color .6s var(--ease),border-color .6s var(--ease)}
+.btn::before{content:"";position:absolute;inset:0;z-index:-1;background:currentColor;transform:translateY(101%);border-radius:inherit;transition:transform .7s var(--ease)}
+.btn .l{position:relative;display:inline-block;overflow:hidden;height:1.25em;line-height:1.25em}
+.btn .l > span{display:block;transition:transform .7s var(--ease)}
+.btn .l > span::after{content:attr(data-t);display:block}
+.btn:hover .l > span{transform:translateY(-1.25em)}
+.btn .ar{display:inline-block;transition:transform .7s var(--ease)}
+.btn:hover .ar{transform:translateX(5px)}
+.btn-solid{background:var(--ink);color:var(--ivory);border-color:var(--ink)}
+.btn-solid::before{background:var(--bronze)}
+.btn-solid:hover{color:var(--night);border-color:var(--bronze)}
+.btn-ghost:hover{color:var(--ivory)}
+.btn-ghost:hover::before,.btn-ghost:focus-visible::before{transform:none}
+.btn-ghost .l,.btn-ghost .ar{mix-blend-mode:normal}
+.btn-ghost:hover .l,.btn-ghost:hover .ar{color:var(--ivory)}
+.night .btn-solid,.on-dark .btn-solid{background:var(--on-night);color:var(--night);border-color:var(--on-night)}
+.night .btn-ghost:hover .l,.night .btn-ghost:hover .ar{color:var(--night)}
+.btn-solid:hover::before{transform:none}
+.btn[disabled]{opacity:.4;pointer-events:none}
+.link{background:none;border:0;padding:0 0 4px;font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;text-decoration:none;position:relative}
+.link::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:currentColor;transform-origin:left;transition:transform .7s var(--ease)}
+.link:hover::after{transform:scaleX(0);transform-origin:right}
+
+/* Header — difference blend keeps it legible over ivory, night and photographs */
+.hdr{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;z-index:60;color:var(--on-night);transition:transform .8s var(--ease),color .6s var(--ease)}
+.hdr::before{content:"";position:absolute;inset:0;background:rgba(20,18,15,0);transition:background .6s var(--ease),border-color .6s;border-bottom:1px solid transparent}
+.hdr.solid::before{background:rgba(20,18,15,.62);-webkit-backdrop-filter:blur(16px) saturate(1.3);backdrop-filter:blur(16px) saturate(1.3);border-color:var(--line-night)}
+.hdr.light{color:var(--ink)}
+.hdr.light.solid::before{background:rgba(245,242,236,.8);border-color:var(--line)}
+.hdr .wrap{position:relative}
+.hdr:not(.solid){text-shadow:0 1px 14px rgba(0,0,0,.35)}
+.hdr.hide{transform:translateY(-110%)}
+.hdr .wrap{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;height:78px}
+.mark{display:inline-flex;align-items:baseline;gap:.7em;text-decoration:none;line-height:1;justify-self:start}
+.mark b{font-family:var(--f-display);font-weight:500;font-size:1.18rem;letter-spacing:.34em}
+.mark small{font-size:.58rem;letter-spacing:.5em}
+.mark img{height:24px;width:auto;display:block}
+@media (max-width:600px){.mark img{height:19px}}
+.nav{display:flex;gap:clamp(18px,2.2vw,36px)}
+.nav a{font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;text-decoration:none;position:relative;padding:6px 0}
+.nav a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform .6s var(--ease)}
+.nav a:hover::after{transform:scaleX(1);transform-origin:left}
+.hdr-r{justify-self:end;display:flex;align-items:center;gap:20px}
+.cart-btn{background:none;border:0;display:flex;align-items:center;gap:10px;font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;padding:8px 0}
+.cart-count{display:inline-grid;place-items:center;min-width:24px;height:24px;border:1px solid currentColor;border-radius:50%;font-family:var(--f-mono);font-size:.64rem;letter-spacing:0}
+.menu-btn{display:none;background:none;border:0;width:44px;height:44px;position:relative;margin-right:-10px}
+.menu-btn span{position:absolute;left:11px;right:11px;height:1px;background:currentColor}
+.menu-btn span:first-child{top:18px}.menu-btn span:last-child{top:25px;left:19px}
+@media (max-width:1080px){.nav{display:none}.menu-btn{display:block}.cart-btn .lbl{display:none}.hdr .wrap{grid-template-columns:1fr auto;height:66px}}
+
+/* Menu */
+.menu{position:fixed;inset:0;z-index:70;background:var(--night);color:var(--on-night);display:grid;grid-template-rows:auto 1fr auto;padding-top:calc(env(safe-area-inset-top,0px) + 12px);padding-bottom:calc(env(safe-area-inset-bottom,0px) + 26px);clip-path:inset(0 0 100% 0);visibility:hidden;transition:clip-path 1s var(--ease-io),visibility 0s 1s}
+.menu.open{clip-path:inset(0);visibility:visible;transition:clip-path 1s var(--ease-io),visibility 0s}
+.menu-top{display:flex;justify-content:space-between;align-items:center;height:56px}
+.menu ol{list-style:none;margin:0;align-self:center;display:flex;flex-direction:column;gap:clamp(4px,1.2vh,12px)}
+.menu li{overflow:hidden;border-bottom:1px solid var(--line-night)}
+.menu ol a{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--f-display);font-size:clamp(2.2rem,9.4vw,4.6rem);line-height:1.1;text-decoration:none;transform:translateY(110%);transition:transform 1s var(--ease)}
+.menu.open ol a{transform:none}
+.menu ol a .mono{color:var(--bronze)}
+.menu-foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:var(--on-night-2);font-size:.82rem}
+
+/* Loader */
+.loader{position:fixed;inset:0;z-index:97;background:var(--night);color:var(--on-night);display:grid;grid-template-rows:1fr auto;pointer-events:none}
+.loader .mid{display:grid;place-items:center}
+.loader .word{display:flex;overflow:hidden}
+.loader .word img{width:clamp(150px,18vw,230px);height:auto;clip-path:inset(0 0 100% 0)}
+.loader .bot{display:flex;justify-content:space-between;align-items:flex-end;padding-bottom:calc(26px + env(safe-area-inset-bottom,0px))}
+.loader .count{font-family:var(--f-display);font-size:clamp(3rem,9vw,7rem);line-height:.8;font-variant-numeric:tabular-nums}
+.loader .bar{position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--bronze);transform:scaleX(0);transform-origin:left}
+
+/* HERO */
+.hero{position:relative;min-height:100svh;background:var(--night);color:var(--on-night);overflow:hidden;isolation:isolate}
+.hero-weave{position:absolute;inset:0;z-index:0;background:url(assets/img/runa-trama.jpg) center/420px repeat;opacity:.0;filter:grayscale(.3) brightness(.8);-webkit-mask-image:radial-gradient(260px circle at var(--mx,-999px) var(--my,-999px),#000 0,transparent 70%);mask-image:radial-gradient(260px circle at var(--mx,-999px) var(--my,-999px),#000 0,transparent 70%);transition:opacity .8s}
+.hero:hover .hero-weave{opacity:.16}
+.hero-media{position:absolute;top:0;right:0;bottom:0;width:47vw;z-index:1;overflow:hidden}
+.hero-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 38%;transform-origin:50% 38%}
+.hero-dim{position:absolute;inset:0;background:#0A0806;opacity:0;pointer-events:none}
+.hero-glow{position:absolute;width:70vmax;height:70vmax;margin:-35vmax 0 0 -35vmax;border-radius:50%;background:radial-gradient(circle,rgba(255,190,110,.32),rgba(255,160,80,.08) 35%,transparent 62%);mix-blend-mode:screen;pointer-events:none;left:var(--gx,50%);top:var(--gy,38%)}
+.hero-copy{position:relative;z-index:3;min-height:100svh;display:grid;grid-template-rows:auto 1fr auto;padding-top:clamp(100px,14vh,140px);padding-bottom:clamp(28px,6vh,64px);pointer-events:none}
+.hero-copy > *{pointer-events:auto}
+.hero-top{display:flex;gap:28px;align-items:baseline;max-width:50vw;color:var(--on-night-2)}
+.hero-top .eyebrow{color:var(--bronze-hi)}
+.hero h1{align-self:center;margin:0;font-size:clamp(4rem,11.2vw,13rem);line-height:.86;letter-spacing:-.035em}
+.hero h1 .row{display:block}
+.hero h1 .row:nth-child(2){padding-left:1.1em}
+.hero h1 .row:nth-child(3){padding-left:.25em}
+.hero-bot{display:grid;grid-template-columns:minmax(0,26ch) auto;gap:clamp(24px,4vw,64px);align-items:end;max-width:52vw}
+.hero-bot .lede{font-family:var(--f-display);font-style:italic;font-size:clamp(1.1rem,1.4vw,1.35rem);line-height:1.4;color:var(--on-night-2)}
+.ctas{display:flex;gap:10px;flex-wrap:wrap}
+.hero-cap{position:absolute;right:max(var(--gut),env(safe-area-inset-right,0px));bottom:clamp(28px,6vh,64px);z-index:3;display:flex;gap:14px;align-items:center;font-size:.62rem;letter-spacing:.24em;text-transform:uppercase;color:var(--on-night)}
+.hero-cap button{background:none;border:0;color:inherit;font-size:inherit;letter-spacing:inherit;text-transform:inherit;padding:0;border-bottom:1px solid currentColor}
+.cord{position:absolute;top:0;left:calc(53vw + 34px);z-index:4;background:none;border:0;padding:0 14px;display:flex;flex-direction:column;align-items:center;touch-action:none;transform-origin:50% 0}
+.cord-line{width:1px;height:clamp(150px,30vh,300px);background:linear-gradient(var(--on-night-2),var(--on-night))}
+.cord-bead{width:12px;height:22px;border-radius:7px;background:var(--bronze-hi);box-shadow:0 0 0 4px rgba(196,165,127,.18)}
+.cord-label{margin-top:12px;font-size:.56rem;letter-spacing:.26em;text-transform:uppercase;color:var(--on-night-2);white-space:nowrap}
+.scroll-ind{position:absolute;left:max(var(--gut),env(safe-area-inset-left,0px));bottom:clamp(28px,6vh,64px);z-index:3;display:none}
+@media (max-width:900px){
+  .hero-media{position:relative;width:100%;height:min(66svh,620px)}
+  .hero-media::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,var(--night) 0%,rgba(20,18,15,0) 46%)}
+  .hero-copy{min-height:0;grid-template-rows:auto;padding-top:0;margin-top:-21svh;gap:22px;padding-bottom:calc(34px + env(safe-area-inset-bottom,0px))}
+  .hero-top{position:static;max-width:none}
+  .hero-top .mono{display:none}
+  .hero h1{font-size:clamp(3.6rem,18vw,6.2rem)}
+  .hero h1 .row:nth-child(2){padding-left:.7em}
+  .hero-bot{grid-template-columns:1fr;max-width:none}
+  .ctas .btn{flex:1 1 auto}
+  .hero-cap{display:none}
+  .cord{left:auto;right:max(10px,env(safe-area-inset-right,0px))}
+  .cord-line{height:22svh}
+}
+
+/* Marquee */
+.marquee{overflow:hidden;padding-block:clamp(26px,4vw,48px);border-bottom:1px solid var(--line);background:var(--ivory)}
+.mq-track{display:flex;width:max-content;will-change:transform}
+.mq-track span{font-family:var(--f-display);font-style:italic;font-size:clamp(2.6rem,7vw,7.4rem);line-height:1;white-space:nowrap;padding-right:.5em;letter-spacing:-.02em}
+.mq-track span b{font-style:normal;font-weight:400;color:var(--bronze);padding:0 .35em}
+
+/* Manifesto */
+.manifesto{padding-block:clamp(90px,14vw,200px)}
+.man-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px}
+.man-label{grid-column:1/3;color:var(--bronze);padding-top:.9em}
+.man-text{grid-column:3/12;margin:0;font-family:var(--f-display);font-size:clamp(1.9rem,4.1vw,4.4rem);line-height:1.08;letter-spacing:-.018em;text-wrap:pretty}
+.man-text .mw{transition:opacity .2s}
+.man-text em{color:var(--bronze)}
+.facts{grid-column:3/13;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-top:clamp(60px,8vw,120px)}
+.fact{border-top:1px solid var(--line);padding-top:20px;display:flex;flex-direction:column;gap:8px}
+.fact .mono{color:var(--bronze)}
+.fact b{font-family:var(--f-display);font-weight:400;font-size:clamp(1.4rem,2vw,1.9rem);line-height:1.1}
+.fact span{color:var(--muted);font-size:.94rem;max-width:30ch}
+@media (max-width:900px){.man-label,.man-text,.facts{grid-column:1/-1}.facts{grid-template-columns:1fr;gap:0}.fact{padding-block:20px}}
+
+/* Collection (horizontal) */
+.coll{position:relative;background:var(--ivory);overflow:clip}
+.coll-pin{height:100svh;display:flex;flex-direction:column;justify-content:center;position:relative}
+.h-track{display:flex;align-items:stretch;gap:clamp(40px,6vw,110px);padding-left:max(var(--gut),env(safe-area-inset-left,0px));padding-right:max(var(--gut),env(safe-area-inset-right,0px));overflow-x:auto;scrollbar-width:none;height:78svh}
+.h-track::-webkit-scrollbar{display:none}
+.h-track.pinned{overflow:visible}
+.intro-panel{flex:0 0 auto;width:min(46vw,640px);display:flex;flex-direction:column;justify-content:space-between;padding-block:2vh}
+.intro-panel h2{margin:0;font-size:clamp(4rem,9vw,10rem);line-height:.84}
+.intro-panel .hint{display:flex;align-items:center;gap:16px;color:var(--muted);font-size:.66rem;letter-spacing:.26em;text-transform:uppercase}
+.intro-panel .hint i{width:70px;height:1px;background:currentColor;position:relative;overflow:hidden}
+.intro-panel .hint i::after{content:"";position:absolute;inset:0;background:var(--ink);transform:translateX(-100%);animation:hint 2.4s var(--ease) infinite}
+@keyframes hint{60%,100%{transform:translateX(100%)}}
+.panel{flex:0 0 auto;display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(26px,3vw,52px);height:100%;align-items:stretch}
+.plinth{position:relative;height:100%;aspect-ratio:3/4;background:var(--sand);overflow:hidden;cursor:pointer}
+.plinth::after{content:"";position:absolute;left:18%;right:18%;bottom:7%;height:4%;border-radius:50%;background:radial-gradient(closest-side,rgba(60,45,30,.28),transparent);filter:blur(6px);z-index:0}
+.plinth .obj{position:absolute;left:50%;bottom:9%;z-index:1;max-height:76%;max-width:78%;width:auto;transform:translateX(-50%);filter:drop-shadow(0 26px 30px rgba(60,40,20,.18));transition:opacity .7s var(--ease)}
+.plinth .obj.pendant{bottom:auto;top:0;max-height:84%}
+.plinth .num{position:absolute;top:18px;left:20px;z-index:2;font-family:var(--f-mono);font-size:.7rem;color:var(--muted)}
+.plinth .big{position:absolute;right:-.06em;bottom:-.2em;z-index:0;font-family:var(--f-display);font-size:clamp(10rem,22vh,16rem);line-height:1;color:transparent;-webkit-text-stroke:1px rgba(34,29,24,.12)}
+.panel-txt{display:flex;flex-direction:column;justify-content:space-between;width:clamp(260px,24vw,380px);padding-block:1vh}
+.panel-txt .cat{color:var(--bronze)}
+.panel-txt h3{margin:14px 0 18px;font-family:var(--f-display);font-weight:400;font-size:clamp(2.6rem,4.6vw,5rem);line-height:.92;letter-spacing:-.02em}
+.panel-txt p{margin:0 0 22px;color:var(--muted);max-width:32ch}
+.swatches{display:flex;gap:8px;margin-bottom:22px;flex-wrap:wrap}
+.sw{border:1px solid var(--line);background:transparent;border-radius:999px;padding:.5em .95em;font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;transition:all .5s var(--ease)}
+.sw[aria-pressed="true"]{background:var(--ink);color:var(--ivory);border-color:var(--ink)}
+.ctx{display:grid;grid-template-columns:96px 1fr;gap:14px;align-items:end;border-top:1px solid var(--line);padding-top:16px;cursor:pointer;background:none;border-left:0;border-right:0;border-bottom:0;text-align:left;padding-left:0;padding-right:0}
+.ctx img{width:96px;height:120px;object-fit:cover}
+.ctx span{font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.ctx b{display:block;font-family:var(--f-display);font-weight:400;font-size:1rem;letter-spacing:0;text-transform:none;color:var(--ink);margin-top:4px}
+.end-panel{flex:0 0 auto;width:min(40vw,560px);background:var(--night);color:var(--on-night);display:flex;flex-direction:column;justify-content:space-between;padding:clamp(28px,3vw,48px)}
+.end-panel h3{margin:0;font-family:var(--f-display);font-weight:400;font-size:clamp(2.4rem,4vw,4.4rem);line-height:.95}
+.coll-prog{position:absolute;left:max(var(--gut),env(safe-area-inset-left,0px));right:max(var(--gut),env(safe-area-inset-right,0px));bottom:4svh;display:flex;align-items:center;gap:20px;font-family:var(--f-mono);font-size:.7rem;color:var(--muted)}
+.coll-prog .rail{flex:1;height:1px;background:var(--line);position:relative}
+.coll-prog .rail i{position:absolute;inset:0;background:var(--ink);transform:scaleX(0);transform-origin:left}
+@media (max-width:900px){
+  .coll-pin{height:auto;padding-block:80px 40px}
+  .h-track{flex-direction:column;height:auto;overflow:visible;gap:0}
+  .intro-panel{width:auto;gap:28px;padding-bottom:40px}
+  .panel{grid-template-columns:1fr;position:sticky;top:64px;height:auto;background:var(--ivory);padding-block:14px 28px;gap:18px;transform-origin:50% 0}
+  .plinth{height:auto;aspect-ratio:4/5;width:100%}
+  .panel-txt{width:auto}
+  .panel-txt h3{margin:8px 0 10px}
+  .ctx{display:none}
+  .end-panel{width:auto;position:relative;z-index:2;margin-top:24px;gap:28px}
+  .coll-prog{display:none}
+}
+
+/* Index */
+.index{padding-block:clamp(100px,13vw,180px);position:relative}
+.idx-head{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:end;margin-bottom:clamp(40px,5vw,70px)}
+.idx-head h2{grid-column:1/8;margin:0;font-size:clamp(2.6rem,6vw,6rem)}
+.idx-head .lede{grid-column:9/13}
+.idx-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line-night)}
+.idx-row{display:grid;grid-template-columns:80px minmax(0,1fr) auto 40px;gap:20px;align-items:center;border-bottom:1px solid var(--line-night);padding-block:clamp(14px,2vw,26px);cursor:pointer;transition:opacity .5s var(--ease),padding .7s var(--ease)}
+.idx-row .n{font-family:var(--f-mono);font-size:.72rem;color:var(--bronze)}
+.idx-row .nm{font-family:var(--f-display);font-size:clamp(2rem,5.4vw,5.6rem);line-height:1;letter-spacing:-.02em;transition:transform .8s var(--ease),font-style .3s}
+.idx-row .c{font-size:.64rem;letter-spacing:.22em;text-transform:uppercase;color:var(--on-night-2)}
+.idx-row .ar{font-size:1.2rem;transition:transform .7s var(--ease);justify-self:end}
+.idx-list:hover .idx-row{opacity:.3}
+.idx-list .idx-row:hover{opacity:1}
+.idx-row:hover .nm{transform:translateX(26px);font-style:italic}
+.idx-row:hover .ar{transform:rotate(-45deg)}
+.idx-row .th{display:none}
+.idx-float{position:fixed;left:0;top:0;width:min(26vw,340px);aspect-ratio:3/4;pointer-events:none;z-index:40;opacity:0;transform:translate(-50%,-50%) scale(.8);transition:opacity .4s,transform .6s var(--ease)}
+.idx-float.on{opacity:1;transform:translate(-50%,-50%) scale(1)}
+.idx-float .disc{position:absolute;inset:0;background:radial-gradient(circle at 50% 45%,rgba(255,196,128,.35),rgba(255,170,90,.06) 45%,transparent 70%)}
+.idx-float img{position:absolute;left:50%;top:50%;max-width:80%;max-height:86%;transform:translate(-50%,-50%);filter:drop-shadow(0 20px 40px rgba(0,0,0,.5))}
+@media (max-width:900px){.idx-head h2,.idx-head .lede{grid-column:1/-1}.idx-row{grid-template-columns:44px minmax(0,1fr) 64px}.idx-row .c,.idx-row .ar{display:none}.idx-row .th{display:block;width:64px;height:76px;object-fit:contain;background:var(--night-2)}.idx-list:hover .idx-row{opacity:1}}
+
+/* Art of light */
+.art{position:relative}
+.art-stage{position:relative}
+.chap{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:center}
+.chap-txt{grid-column:1/6;display:flex;flex-direction:column;gap:22px}
+.chap-txt .mono{color:var(--bronze)}
+.chap-txt h2{margin:0;font-size:clamp(2.6rem,5vw,5.4rem)}
+.chap-frame{grid-column:6/13;position:relative;height:78svh;overflow:hidden}
+.chap-frame > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.mosaic{position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:10px}
+.mosaic figure{margin:0;position:relative;overflow:hidden}
+.mosaic img{width:100%;height:100%;object-fit:cover}
+.mosaic figcaption{position:absolute;left:12px;bottom:10px;font-size:.58rem;letter-spacing:.22em;text-transform:uppercase;color:#F1ECE3;background:rgba(20,18,15,.55);padding:.4em .7em}
+.art-rail{position:absolute;left:max(var(--gut),env(safe-area-inset-left,0px));bottom:6svh;display:flex;gap:22px;z-index:3}
+.art-rail span{font-family:var(--f-mono);font-size:.72rem;color:var(--on-night-2);display:flex;align-items:center;gap:10px;transition:color .5s}
+.art-rail span i{display:block;width:34px;height:1px;background:var(--line-night);position:relative;overflow:hidden}
+.art-rail span i b{position:absolute;inset:0;background:var(--bronze);transform:scaleX(0);transform-origin:left}
+.art-rail span.on{color:var(--on-night)}
+.art-stage{padding-block:clamp(90px,10vw,150px)}
+.art-stage .chap + .chap{margin-top:90px}
+@media (min-width:901px){
+  .anim .art-stage{height:100svh;display:grid;align-items:center;padding-block:10svh}
+  .anim .art-stage .chap{grid-area:1/1;margin:0}
+}
+@media (max-width:900px){
+  .art{padding-block:90px 30px}
+  .chap{padding-bottom:80px}
+  .chap-txt,.chap-frame{grid-column:1/-1}
+  .chap-frame{height:auto;aspect-ratio:4/5}
+  .art-rail{display:none}
+}
+
+/* Light mood */
+.mood{padding-block:clamp(100px,13vw,180px)}
+.mood-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:center}
+.mood-stage{grid-column:1/7;position:relative;aspect-ratio:2/3;max-height:88svh;overflow:hidden;background:#000;justify-self:start;width:100%}
+.mood-stage img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.mood-stage .lit{-webkit-mask-image:radial-gradient(circle at 50% 37%,#000 0,#000 var(--r1,8%),transparent var(--r2,42%));mask-image:radial-gradient(circle at 50% 37%,#000 0,#000 var(--r1,8%),transparent var(--r2,42%))}
+.mood-tint{position:absolute;inset:0;mix-blend-mode:soft-light;pointer-events:none}
+.mood-glow{position:absolute;left:50%;top:37%;width:140%;aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;mix-blend-mode:screen;pointer-events:none}
+.mood-k{position:absolute;left:20px;bottom:18px;font-family:var(--f-display);font-size:clamp(2.4rem,4vw,3.6rem);line-height:1;color:#F1ECE3;font-variant-numeric:tabular-nums;text-shadow:0 2px 20px rgba(0,0,0,.4)}
+.mood-k small{display:block;font-family:var(--f-mono);font-size:.68rem;margin-top:8px;letter-spacing:.1em;opacity:.8}
+.mood-panel{grid-column:8/13;display:flex;flex-direction:column;gap:30px}
+.mood-panel h2{margin:0;font-size:clamp(2.4rem,4.6vw,4.8rem)}
+.rng{display:flex;flex-direction:column;gap:12px}
+.rng label{display:flex;justify-content:space-between;font-size:.64rem;letter-spacing:.22em;text-transform:uppercase}
+.rng label .mono{letter-spacing:.04em;text-transform:none}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:28px;background:transparent;margin:0}
+input[type=range]::-webkit-slider-runnable-track{height:2px;background:var(--trk,currentColor);border-radius:2px}
+input[type=range]::-moz-range-track{height:2px;background:var(--trk,currentColor)}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;border-radius:50%;background:var(--paper);border:1px solid var(--ink);margin-top:-10px;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;background:var(--paper);border:1px solid var(--ink)}
+.kelvin{--trk:linear-gradient(90deg,#FFB46B,#FFE2C2 45%,#F4F6FF 75%,#CFDCFF)}
+.kelvin::-webkit-slider-runnable-track{height:6px;margin-top:0}
+.kelvin::-webkit-slider-thumb{margin-top:-8px}
+.kelvin::-moz-range-track{height:6px}
+.presets{display:flex;gap:8px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:transparent;padding:.65em 1.1em;font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;border-radius:999px;transition:all .5s var(--ease)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--ivory);border-color:var(--ink)}
+.mood-copy{color:var(--muted);min-height:4.8em;margin:0}
+.note{font-size:.78rem;color:var(--muted);border-left:1px solid var(--stone);padding-left:14px;margin:0}
+.night .note{color:var(--on-night-2);border-color:var(--line-night)}
+@media (max-width:900px){.mood-stage,.mood-panel{grid-column:1/-1}.mood-stage{max-height:none}}
+
+/* Estudio visual */
+.studio{padding-block:clamp(100px,13vw,180px);position:relative;overflow:clip}
+.st-head{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:end;margin-bottom:clamp(40px,5vw,72px)}
+.st-head .eyebrow{grid-column:1/-1;color:var(--bronze-hi)}
+.st-head h2{grid-column:1/9;margin:0;font-size:clamp(3rem,8vw,9rem);line-height:.86}
+.st-head .lede{grid-column:9/13}
+.app{border:1px solid var(--line-night);background:linear-gradient(180deg,rgba(241,236,227,.035),rgba(241,236,227,.01));border-radius:4px;overflow:hidden}
+.app-bar{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px;border-bottom:1px solid var(--line-night);flex-wrap:wrap}
+.app-bar .dots{display:flex;gap:6px}
+.app-bar .dots i{width:7px;height:7px;border-radius:50%;background:var(--line-night)}
+.prog{display:flex;gap:6px;flex:1;max-width:520px;min-width:220px}
+.prog div{flex:1;display:flex;flex-direction:column;gap:7px;font-size:.56rem;letter-spacing:.2em;text-transform:uppercase;color:var(--on-night-2);transition:color .5s}
+.prog div i{height:2px;background:var(--line-night);position:relative;overflow:hidden;border-radius:2px}
+.prog div i::after{content:"";position:absolute;inset:0;background:var(--bronze-hi);transform:scaleX(0);transform-origin:left;transition:transform 1s var(--ease)}
+.prog div.on{color:var(--on-night)}
+.prog div.on i::after{transform:none}
+.app-body{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,400px)}
+.stage{position:relative;background:#0E0C0A;display:grid;place-items:center;min-height:420px;overflow:hidden;touch-action:none;user-select:none;-webkit-user-select:none;border-right:1px solid var(--line-night)}
+.stage canvas{display:block;max-width:100%;max-height:78svh;width:auto;height:auto;cursor:grab}
+.stage canvas:active{cursor:grabbing}
+.stage.drag::after{content:"Soltá tu foto acá";position:absolute;inset:14px;border:1px dashed var(--bronze-hi);display:grid;place-items:center;font-family:var(--f-display);font-size:1.6rem;background:rgba(14,12,10,.7)}
+.stage-tools{position:absolute;top:14px;left:14px;right:14px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;pointer-events:none}
+.stage-tools > *{pointer-events:auto}
+.glass{background:rgba(20,18,15,.6);-webkit-backdrop-filter:blur(14px) saturate(1.2);backdrop-filter:blur(14px) saturate(1.2);border:1px solid rgba(241,236,227,.12);color:var(--on-night);border-radius:999px}
+.gbtn{display:inline-flex;align-items:center;gap:8px;padding:.7em 1.1em;font-size:.6rem;letter-spacing:.2em;text-transform:uppercase}
+.gbtn i{width:6px;height:6px;border-radius:50%;background:var(--bronze-hi)}
+.gbtn[aria-pressed="true"]{background:var(--on-night);color:var(--night)}
+.stage-hint{position:absolute;left:50%;bottom:16px;transform:translateX(-50%);padding:.6em 1.1em;font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;white-space:nowrap;pointer-events:none}
+.gen{position:absolute;inset:0;z-index:6;display:grid;place-items:center;background:rgba(10,8,6,.84);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);text-align:center;overflow:hidden}
+.gen .sweep{position:absolute;inset:-20%;background:radial-gradient(circle at var(--sx,50%) 50%,rgba(255,190,110,.18),transparent 40%)}
+.gen p{position:relative;font-family:var(--f-display);font-style:italic;font-size:clamp(1.5rem,3vw,2.4rem);margin:0 0 22px;color:var(--on-night)}
+.gen .bar{position:relative;width:min(280px,60%);height:1px;background:var(--line-night);margin:0 auto;overflow:hidden}
+.gen .bar i{display:block;height:100%;background:var(--bronze-hi);transform-origin:left;transform:scaleX(0)}
+.side{display:flex;flex-direction:column;min-width:0}
+.tabs{display:grid;grid-template-columns:repeat(3,1fr);border-bottom:1px solid var(--line-night)}
+.tabs button{background:none;border:0;border-right:1px solid var(--line-night);padding:16px 8px;font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:var(--on-night-2);position:relative;transition:color .4s}
+.tabs button:last-child{border-right:0}
+.tabs button::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;background:var(--bronze-hi);transform:scaleX(0);transition:transform .6s var(--ease)}
+.tabs button[aria-selected="true"]{color:var(--on-night)}
+.tabs button[aria-selected="true"]::after{transform:none}
+.pane{padding:20px 18px;display:flex;flex-direction:column;gap:20px;flex:1}
+.lamp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.lamp-opt{background:rgba(241,236,227,.03);border:1px solid var(--line-night);padding:8px 8px 10px;display:flex;flex-direction:column;gap:6px;text-align:left;border-radius:3px;transition:border-color .4s,background .4s,transform .5s var(--ease)}
+.lamp-opt:hover{transform:translateY(-2px)}
+.lamp-opt .ph{aspect-ratio:1;display:grid;place-items:center;background:radial-gradient(circle at 50% 45%,rgba(255,190,120,.14),transparent 70%)}
+.lamp-opt .ph img{max-height:84%;max-width:84%;object-fit:contain}
+.lamp-opt b{font-family:var(--f-display);font-weight:400;font-size:.92rem;line-height:1.1}
+.lamp-opt span{font-size:.52rem;letter-spacing:.16em;text-transform:uppercase;color:var(--on-night-2)}
+.lamp-opt[aria-pressed="true"]{border-color:var(--bronze-hi);background:rgba(196,165,127,.1)}
+.night input[type=range]::-webkit-slider-thumb{background:var(--night);border-color:var(--on-night)}
+.night input[type=range]::-moz-range-thumb{background:var(--night);border-color:var(--on-night)}
+.night input[type=range]{--trk:rgba(241,236,227,.35)}
+.tgl{display:flex;gap:8px;flex-wrap:wrap}
+.tbtn{background:transparent;border:1px solid var(--line-night);border-radius:999px;padding:.7em 1.05em;font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;transition:all .4s var(--ease)}
+.tbtn[aria-pressed="true"]{border-color:var(--on-night);background:var(--on-night);color:var(--night)}
+.ai-card{border:1px solid var(--line-night);border-radius:3px;padding:18px;display:flex;flex-direction:column;gap:12px;background:radial-gradient(120% 120% at 100% 0%,rgba(196,165,127,.12),transparent 60%)}
+.ai-card b{font-family:var(--f-display);font-weight:400;font-size:1.3rem}
+.ai-card p{margin:0;color:var(--on-night-2);font-size:.9rem}
+.ai-out{font-family:var(--f-display);font-style:italic;font-size:1.05rem;color:var(--on-night)}
+.side-foot{padding:16px 18px 18px;border-top:1px solid var(--line-night);display:grid;gap:12px;position:sticky;bottom:0;background:var(--night)}
+.side-foot .btn{width:100%}
+.side-foot small{color:var(--on-night-2);font-size:.74rem;line-height:1.5}
+.result{margin-top:clamp(36px,5vw,64px);display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:clamp(24px,4vw,64px);align-items:center}
+.result > div{min-width:0}
+.compare{position:relative;overflow:hidden;background:#0E0C0A;touch-action:pan-y;border-radius:3px}
+.compare img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none}
+.compare .before{position:absolute;inset:0;clip-path:inset(0 50% 0 0)}
+.compare .before img{width:100%;height:100%;object-fit:cover}
+.compare .handle{position:absolute;top:0;bottom:0;left:50%;width:1px;background:var(--on-night);pointer-events:none}
+.compare .handle::after{content:"";position:absolute;top:50%;left:50%;width:54px;height:54px;transform:translate(-50%,-50%);border-radius:50%;background:var(--on-night) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2314120F' stroke-width='1.4'%3E%3Cpath d='M9 6l-6 6 6 6M15 6l6 6-6 6'/%3E%3C/svg%3E") center/22px no-repeat;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.compare input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.compare .tag{position:absolute;top:14px;padding:.5em .9em;font-size:.58rem;letter-spacing:.22em;text-transform:uppercase;pointer-events:none}
+.compare .tag.l{left:14px}.compare .tag.r{right:14px}
+.res-side{display:flex;flex-direction:column;gap:22px}
+.res-side h3{margin:0;font-family:var(--f-display);font-weight:400;font-size:clamp(2.2rem,4vw,4rem);line-height:.95}
+.acts{display:grid;gap:10px}
+.acts .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.status{font-size:.82rem;color:var(--on-night-2);min-height:1.4em;margin:0}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:.8rem;color:var(--on-night-2)}
+.consent input{margin-top:4px;accent-color:var(--bronze)}
+@media (max-width:1000px){
+  .st-head h2,.st-head .lede{grid-column:1/-1}
+  .app-body{grid-template-columns:minmax(0,1fr)}
+  .stage{border-right:0;border-bottom:1px solid var(--line-night);min-height:0}
+  .stage canvas{max-height:none;width:100%}
+  .result{grid-template-columns:minmax(0,1fr)}
+  .lamp-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+}
+@media (max-width:520px){.lamp-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.app-bar .dots{display:none}}
+
+/* Concierge */
+.cc{padding-block:clamp(100px,13vw,180px)}
+.cc-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:start}
+.cc-intro{grid-column:1/5;display:flex;flex-direction:column;gap:24px;position:sticky;top:120px}
+.cc-intro h2{margin:0;font-size:clamp(2.6rem,4.8vw,5rem)}
+.chat{grid-column:6/13;background:var(--paper);border:1px solid var(--line);border-radius:4px;display:flex;flex-direction:column;min-height:600px;box-shadow:0 40px 80px -50px rgba(46,38,31,.35)}
+.chat-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:18px 22px;border-bottom:1px solid var(--line)}
+.chat-id{display:flex;align-items:center;gap:12px}
+.chat-id .av{width:38px;height:38px;border-radius:50%;background:var(--night) url(assets/img/rinna-cut.webp) center 60%/70% no-repeat;box-shadow:inset 0 0 0 1px var(--line)}
+.chat-id b{display:block;font-family:var(--f-display);font-weight:400;font-size:1.15rem;line-height:1}
+.chat-id small{font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.chat-id small i{display:inline-block;width:6px;height:6px;border-radius:50%;background:#7C9A6E;margin-right:6px;vertical-align:middle}
+.pill{border:1px solid var(--line);border-radius:999px;padding:.45em .85em;font-size:.56rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.chat-log{flex:1;padding:26px 22px;display:flex;flex-direction:column;gap:16px;overflow-y:auto;max-height:640px;scroll-behavior:smooth}
+.msg{max-width:86%;line-height:1.5}
+.msg.bot{align-self:flex-start;font-family:var(--f-display);font-size:1.16rem}
+.msg.user{align-self:flex-end;background:var(--ink);color:var(--ivory);padding:.7em 1.1em;border-radius:18px 18px 4px 18px;font-size:.92rem}
+.msg.think{display:flex;gap:5px;padding:6px 0}
+.msg.think i{width:6px;height:6px;border-radius:50%;background:var(--stone);animation:bl 1.2s infinite}
+.msg.think i:nth-child(2){animation-delay:.15s}.msg.think i:nth-child(3){animation-delay:.3s}
+@keyframes bl{0%,80%,100%{opacity:.3;transform:translateY(0)}40%{opacity:1;transform:translateY(-3px)}}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.recs{display:grid;gap:12px;width:100%}
+.rec{display:grid;grid-template-columns:96px 1fr;gap:16px;align-items:center;border:1px solid var(--line);border-radius:3px;padding:10px;background:var(--ivory)}
+.rec .rph{width:96px;height:116px;background:var(--sand);display:grid;place-items:center}
+.rec .rph img{max-width:80%;max-height:86%;object-fit:contain}
+.rec h4{margin:0 0 4px;font-family:var(--f-display);font-weight:400;font-size:1.3rem}
+.rec p{margin:0 0 10px;color:var(--muted);font-family:var(--f-ui);font-size:.88rem}
+.rec .links{display:flex;gap:14px;flex-wrap:wrap}
+.chat-in{display:flex;border-top:1px solid var(--line)}
+.chat-in input{flex:1;min-width:0;border:0;background:transparent;padding:18px 22px;font:inherit;font-size:.96rem;color:var(--ink)}
+.chat-in input:focus{outline:none}
+.chat-in button{border:0;background:transparent;padding:0 22px;font-size:.64rem;letter-spacing:.22em;text-transform:uppercase}
+@media (max-width:1000px){.cc-intro,.chat{grid-column:1/-1}.cc-intro{position:static}.chat{min-height:520px}}
+
+/* Showroom 3D */
+.sr{position:relative;background:#0C0A08;color:var(--on-night);overflow:hidden;isolation:isolate;-webkit-user-select:none;user-select:none}
+.sr .tbtn{color:var(--on-night)}
+.sr .tbtn[aria-pressed="true"]{color:var(--night)}
+.sr-stage{position:relative;height:100svh;min-height:640px;touch-action:pan-y;cursor:grab;user-select:none;-webkit-user-select:none}
+.sr-stage.grab{cursor:grabbing}
+.sr-stage canvas{position:absolute;inset:0;width:100%!important;height:100%!important;display:block}
+.sr-fallback{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:24px;color:var(--on-night-2)}
+.sr-top{position:absolute;left:0;right:0;top:0;z-index:3;padding-top:clamp(88px,12vh,120px);display:flex;justify-content:space-between;align-items:flex-start;gap:24px;pointer-events:none}
+.sr-top h2{margin:12px 0 0;font-size:clamp(2.6rem,5.6vw,6rem);line-height:.9}
+.sr-top .eyebrow{color:var(--bronze-hi)}
+.sr-top .r{text-align:right;color:var(--on-night-2);font-size:.82rem;max-width:30ch;pointer-events:auto}
+.sr-bot{position:absolute;left:0;right:0;bottom:0;z-index:3;padding-bottom:calc(clamp(26px,5vh,56px) + env(safe-area-inset-bottom,0px));display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:end;background:linear-gradient(to top,rgba(12,10,8,.92) 10%,rgba(237,229,217,0));padding-top:120px;pointer-events:none}
+.sr-bot > *{pointer-events:auto}
+.sr-info{min-width:0;max-width:560px}
+.sr-num{font-family:var(--f-mono);font-size:.74rem;color:var(--bronze-hi);display:flex;gap:14px;align-items:center}
+.sr-num i{display:block;width:60px;height:1px;background:var(--line-night);position:relative;overflow:hidden}
+.sr-num i b{position:absolute;inset:0;background:var(--bronze-hi);transform-origin:left}
+.sr-name{font-family:var(--f-display);font-size:clamp(3rem,7vw,6.4rem);line-height:.9;letter-spacing:-.025em;margin:10px 0 8px;white-space:nowrap}
+.sr-cat{font-size:.64rem;letter-spacing:.26em;text-transform:uppercase;color:var(--on-night-2)}
+.sr-desc{color:var(--on-night-2);margin:14px 0 20px;max-width:40ch;font-size:.96rem;min-height:3.2em}
+.sr-ctrls{display:flex;flex-direction:column;align-items:flex-end;gap:14px}
+.sr-arrows{display:flex;gap:10px}
+.sr-arr{width:64px;height:64px;border-radius:50%;border:1px solid var(--line-night);background:rgba(20,18,15,.5);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);display:grid;place-items:center;transition:background .4s var(--ease),border-color .4s}
+.sr-arr:hover{background:var(--on-night);color:var(--night)}
+.sr-tgl{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.sr-hint{display:flex;align-items:center;gap:12px;font-size:.6rem;letter-spacing:.26em;text-transform:uppercase;color:var(--on-night-2)}
+.sr-hint svg{animation:srh 2.4s var(--ease) infinite}
+@keyframes srh{0%,100%{transform:translateX(-6px)}50%{transform:translateX(6px)}}
+.sr-dots{display:flex;gap:6px}
+.sr-dots button{width:26px;height:26px;border:0;background:none;padding:0;display:grid;place-items:center}
+.sr-dots button i{display:block;width:6px;height:6px;border-radius:50%;background:var(--line-night);transition:all .5s var(--ease)}
+.sr-dots button[aria-current="true"] i{background:var(--bronze-hi);width:18px;border-radius:4px}
+@media (max-width:900px){
+  .sr-stage{height:92svh;min-height:600px}
+  .sr-hint,#srAuto,#srZoom{display:none}
+  .sr-tgl{order:3}
+  .sr-top{padding-top:80px}.sr-top .r{display:none}
+  .sr-bot{grid-template-columns:1fr;padding-top:80px;gap:16px}
+  .sr-ctrls{flex-direction:row;justify-content:space-between;align-items:center;flex-wrap:wrap}
+  .sr-arr{width:52px;height:52px}
+  .sr-desc{display:none}
+  .sr-name{font-size:clamp(2.6rem,13vw,4rem)}
+  .sr-info .ctas .btn{padding:1em 1.3em}
+}
+
+/* Pros */
+.pros{background:var(--sand);padding-block:clamp(100px,13vw,180px);overflow:hidden}
+.pros-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:end}
+.pros .big-ph{grid-column:1/8;position:relative;aspect-ratio:4/5;overflow:hidden;max-height:92svh}
+.pros .big-ph img{width:100%;height:115%;object-fit:cover}
+.pros .card{grid-column:7/13;grid-row:1;align-self:end;background:var(--paper);padding:clamp(26px,3.4vw,52px);display:flex;flex-direction:column;gap:20px;margin-bottom:-2px;position:relative;z-index:2;box-shadow:0 40px 90px -50px rgba(46,38,31,.4)}
+.pros h2{margin:0;font-size:clamp(2.2rem,3.8vw,3.8rem)}
+form.pf{display:grid;grid-template-columns:1fr 1fr;gap:16px 20px}
+.field{display:flex;flex-direction:column;gap:4px;position:relative}
+.field.full{grid-column:1/-1}
+.field label{font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.field input,.field select,.field textarea{font:inherit;font-size:1rem;color:var(--ink);background:transparent;border:0;border-bottom:1px solid rgba(34,29,24,.25);padding:8px 0;border-radius:0}
+.field::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--ink);transform:scaleX(0);transform-origin:left;transition:transform .7s var(--ease)}
+.field:focus-within::after{transform:none}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none}
+.field textarea{resize:vertical;min-height:64px}
+.field.err input{border-color:#9B3D2E}
+.form-msg{font-size:.86rem;min-height:1.3em;margin:0;grid-column:1/-1}
+@media (max-width:900px){.pros .big-ph{grid-column:1/-1}.pros .card{grid-column:1/-1;grid-row:auto;margin-top:-18%;margin-inline:10px}form.pf{grid-template-columns:1fr}}
+
+/* Footer */
+.foot{padding-top:clamp(100px,13vw,180px);overflow:hidden;position:relative}
+.foot-cta{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:end;margin-bottom:clamp(60px,8vw,120px)}
+.foot-cta h2{grid-column:1/9;margin:0;font-size:clamp(3rem,7.6vw,8.4rem);line-height:.88}
+.foot-cta .ctas{grid-column:9/13;justify-content:flex-start}
+.foot-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;border-top:1px solid var(--line-night);padding-top:30px}
+.foot-grid h4{margin:0 0 14px;font-size:.6rem;letter-spacing:.24em;text-transform:uppercase;font-weight:400;color:var(--bronze-hi)}
+.foot-grid p,.foot-grid a{margin:0;color:var(--on-night-2);font-size:.92rem;text-decoration:none;display:block;line-height:1.9}
+.foot-grid a:hover{color:var(--on-night)}
+.copyrow{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.copybtn{background:none;border:1px solid var(--line-night);color:var(--on-night-2);border-radius:999px;font-size:.54rem;letter-spacing:.16em;text-transform:uppercase;padding:.4em .8em}
+.foot-word{font-family:var(--f-display);font-size:19.2vw;line-height:.78;letter-spacing:-.03em;white-space:nowrap;margin:clamp(50px,7vw,100px) 0 0;display:flex;justify-content:center;overflow:hidden;color:var(--on-night);padding-bottom:.02em}
+.foot-word img{width:100%;max-width:1400px;height:auto;clip-path:inset(0 0 0 0)}
+.foot-word{font-size:inherit;padding-block:0 clamp(40px,6vw,90px)}
+.foot-base{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-block:22px calc(22px + env(safe-area-inset-bottom,0px));color:var(--on-night-2);font-size:.74rem;border-top:1px solid var(--line-night)}
+@media (max-width:900px){.foot-cta h2,.foot-cta .ctas{grid-column:1/-1}.foot-grid{grid-template-columns:1fr 1fr}}
+
+/* WhatsApp */
+.wa{position:fixed;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:55;display:flex;align-items:center;gap:10px;background:var(--espresso);color:var(--on-night);text-decoration:none;padding:12px 18px 12px 13px;border-radius:999px;font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;box-shadow:0 14px 34px -14px rgba(20,18,15,.6);transition:transform .6s var(--ease),opacity .5s}
+.wa:hover{transform:translateY(-3px)}
+.wa svg{width:21px;height:21px}
+.wa:focus-visible{outline:3px solid var(--bronze-hi);outline-offset:4px}
+@media (max-width:600px){.wa .t{display:none}.wa{padding:14px}}
+
+/* Overlays */
+.ov{position:fixed;inset:0;z-index:80;visibility:hidden;pointer-events:none}
+.ov.open{visibility:visible;pointer-events:auto}
+.ov-bg{position:absolute;inset:0;background:rgba(20,18,15,.55);opacity:0;transition:opacity .7s var(--ease);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+.ov.open .ov-bg{opacity:1}
+.pd{position:absolute;inset:0;background:var(--ivory);display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);overflow:hidden;padding-top:env(safe-area-inset-top,0px);clip-path:inset(100% 0 0 0);transition:clip-path 1s var(--ease-io)}
+.ov.open .pd{clip-path:inset(0)}
+.pd-media{position:relative;background:var(--sand);min-height:0;display:grid;grid-template-rows:1fr auto}
+.pd-main{position:relative;overflow:hidden}
+.pd-main img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;cursor:zoom-in;transition:opacity .6s var(--ease)}
+.pd-main img.obj{object-fit:contain;padding:8% 10% 6%;cursor:default}
+.pd-thumbs{display:flex;gap:8px;padding:12px;overflow-x:auto;background:var(--sand);scrollbar-width:none}
+.pd-thumbs button{flex:0 0 64px;height:78px;border:1px solid transparent;padding:0;background:var(--sand-2);opacity:.6;transition:all .4s}
+.pd-thumbs button[aria-pressed="true"]{opacity:1;border-color:var(--ink)}
+.pd-thumbs img{width:100%;height:100%;object-fit:cover}
+.pd-thumbs img.obj{object-fit:contain;padding:6px}
+.pd-info{overflow-y:auto;padding-block:clamp(84px,10vh,120px) calc(40px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:24px}
+.pd-info > *{opacity:1}
+.pd-close{position:absolute;top:calc(16px + env(safe-area-inset-top,0px));right:calc(18px + env(safe-area-inset-right,0px));z-index:3;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:.8em 1.2em;font-size:.6rem;letter-spacing:.22em;text-transform:uppercase}
+.pd-info h2{margin:0;font-size:clamp(3rem,5.4vw,5.6rem)}
+.spec{display:grid;grid-template-columns:auto 1fr;border-top:1px solid var(--line);margin:0}
+.spec dt,.spec dd{margin:0;padding:13px 0;border-bottom:1px solid var(--line);font-size:.92rem}
+.spec dt{font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);padding-right:26px;padding-top:16px}
+.related{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.related button{background:var(--sand);border:0;padding:0;text-align:left;display:flex;flex-direction:column}
+.related .rph{aspect-ratio:3/4;display:grid;place-items:center}
+.related .rph img{max-width:76%;max-height:80%;object-fit:contain;transition:transform .8s var(--ease)}
+.related button:hover .rph img{transform:scale(1.06)}
+.related span{font-family:var(--f-display);font-size:1rem;padding:8px 10px;background:var(--ivory)}
+.fly{position:fixed;z-index:85;pointer-events:none;object-fit:cover}
+@media (max-width:900px){.pd{grid-template-columns:1fr;grid-template-rows:62svh auto;overflow-y:auto}.pd-info{overflow:visible;padding-top:34px}}
+.cart{position:absolute;top:0;right:0;bottom:0;width:min(460px,100%);background:var(--ivory);transform:translateX(100%);transition:transform .9s var(--ease-io);display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.ov.open .cart{transform:none}
+.cart-head{display:flex;justify-content:space-between;align-items:center;padding:24px}
+.cart-head b{font-family:var(--f-display);font-weight:400;font-size:1.9rem}
+.cart-list{flex:1;overflow-y:auto;padding:0 24px;border-top:1px solid var(--line)}
+.ci{display:grid;grid-template-columns:76px 1fr auto;gap:16px;padding:18px 0;border-bottom:1px solid var(--line);align-items:center}
+.ci .rph{width:76px;height:92px;background:var(--sand);display:grid;place-items:center}
+.ci .rph img{max-width:80%;max-height:86%;object-fit:contain}
+.ci b{font-family:var(--f-display);font-weight:400;font-size:1.15rem;display:block}
+.ci small{color:var(--muted);font-size:.78rem}
+.qty{display:flex;align-items:center;border:1px solid var(--line);border-radius:999px}
+.qty button{background:none;border:0;width:32px;height:32px}
+.qty span{font-family:var(--f-mono);font-size:.8rem;min-width:16px;text-align:center}
+.cart-foot{padding:20px 24px;border-top:1px solid var(--line);display:grid;gap:10px}
+.cart-empty{padding:40px 0;color:var(--muted);font-family:var(--f-display);font-size:1.3rem}
+.lb{position:absolute;inset:0;background:var(--night);display:flex;flex-direction:column}
+.lb-top{display:flex;justify-content:space-between;align-items:center;padding:calc(14px + env(safe-area-inset-top,0px)) 18px 14px;color:var(--on-night)}
+.lb-scroll{flex:1;overflow:auto;display:grid;place-items:center}
+.lb-scroll img{max-width:none}
+.lb-scroll img.fit{max-width:100%;max-height:100%}
+.sheet{position:absolute;left:50%;bottom:0;width:min(560px,100%);transform:translate(-50%,100%);background:var(--paper);color:var(--ink);padding:30px 26px calc(26px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:18px;border-radius:14px 14px 0 0;transition:transform .8s var(--ease)}
+.ov.open .sheet{transform:translate(-50%,0)}
+.sheet h3{margin:0;font-family:var(--f-display);font-weight:400;font-size:1.9rem;line-height:1}
+.sheet p{margin:0;color:var(--muted);font-size:.92rem}
+.sheet .row{display:flex;gap:10px;flex-wrap:wrap}
+.toast{position:fixed;left:50%;top:calc(84px + env(safe-area-inset-top,0px));transform:translate(-50%,-14px);opacity:0;z-index:96;background:var(--ink);color:var(--ivory);padding:.95em 1.4em;border-radius:999px;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;transition:all .6s var(--ease);pointer-events:none;max-width:calc(100% - 32px);text-align:center}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}.grain{display:none}}
+</style>
+
+<div class="grain" id="grain" aria-hidden="true"></div>
+<div class="cursor" id="cursor" aria-hidden="true"><div class="c-ring"><span id="cLabel">Ver</span></div></div>
+
+<style>
+/* Natural tones, quick shopping and discreet maker credit. */
+.hdr,.hdr.light{color:var(--ink)}
+.hdr::before,.hdr.solid::before,.hdr.light.solid::before{background:rgba(251,250,247,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(14px)}
+.hdr:not(.solid){text-shadow:none}
+.hero-cap,.cord-label{background:rgba(251,250,247,.9);padding:8px 12px;border-radius:4px;color:var(--ink)}
+.hero-bot{grid-template-columns:1fr;max-width:45vw;gap:22px}.hero-bot .lede{max-width:31ch}
+.hero h1{font-size:clamp(4rem,10vw,11rem)}
+.stage,.compare,.sr,.mood-stage{background:#ede5d9}
+.glass,.sr-arr,.stage.drag::after,.gen{background:rgba(245,240,232,.94);border-color:var(--line)}
+.sr-bot{background:linear-gradient(to top,rgba(237,229,217,.97) 10%,rgba(237,229,217,0))}
+.wa{color:var(--ivory)}.compare .handle::after{background-color:var(--ivory)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.quick-shop{padding-block:80px;scroll-margin-top:84px;background:var(--paper)}
+.quick-head{display:flex;align-items:end;justify-content:space-between;gap:28px;margin-bottom:30px}
+.quick-head h2{font-size:clamp(2.8rem,5vw,5rem);margin:14px 0}.quick-head p{max-width:40ch;color:var(--muted);margin:0}
+.quick-filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:30px}
+.quick-filters button{min-height:44px;letter-spacing:.08em}
+.quick-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px 24px}
+.quick-card{display:flex;flex-direction:column;min-width:0}
+.quick-photo{border:0;background:#eee7dc;aspect-ratio:1.1;overflow:hidden;display:grid;place-items:center;width:100%;position:relative}
+.quick-photo img{height:82%;width:82%;object-fit:contain;transition:transform .6s ease}.quick-photo:hover img{transform:scale(1.04)}
+.quick-tag{position:absolute;left:14px;top:14px;font-size:.64rem;letter-spacing:.1em;background:var(--paper);padding:5px 10px;border-radius:20px;text-transform:uppercase}
+.quick-card h3{font:400 1.9rem var(--f-display);margin:18px 0 4px}.quick-card h3 button{background:none;border:0;font:inherit;text-align:left;padding:0}
+.quick-price{font-size:1rem;margin:0;color:var(--ink)}.quick-time{font-size:.85rem;color:var(--muted);line-height:1.55;margin:10px 0 18px;flex:1}
+.quick-actions{display:grid;gap:8px}.quick-actions .btn{min-height:46px;font-size:.61rem;letter-spacing:.1em;padding:12px 16px}
+.quick-more{display:flex;justify-content:space-between;align-items:center;gap:10px;padding-top:10px;font-size:.8rem}.quick-more button{border:0;background:none;text-decoration:underline;padding:8px 0}
+.delivery{padding-block:58px;border-top:1px solid var(--line);scroll-margin-top:84px;background:var(--ivory)}
+.delivery h2{font-size:clamp(2.2rem,4vw,3.6rem);margin:0 0 30px}.delivery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:36px}
+.delivery h3{font-size:1.1rem;font-weight:400;margin:0 0 8px}.delivery p{color:var(--muted);font-size:.95rem;margin:0}.delivery-note{margin-top:28px!important;font-size:.8rem!important}
+.cart-foot details{font-size:.85rem;border-top:1px solid var(--line);padding-top:12px}.cart-foot summary{cursor:pointer;padding:8px 0}.cart-foot small{line-height:1.5;color:var(--muted)}
+.rushy-credit{display:flex;align-items:center;justify-content:center;gap:14px;padding:22px 24px 32px;border-top:1px solid var(--line);color:var(--muted);font-size:.8rem;text-decoration:none}
+.rushy-credit img{width:44px;height:44px;object-fit:contain;border-radius:50%}.rushy-credit span{display:block}.rushy-credit strong{font-weight:500;color:var(--ink)}
+.rushy-credit .rushy-cta{font-size:.74rem;margin-top:3px;text-decoration:underline;text-underline-offset:4px}.rushy-credit:hover .rushy-cta{color:var(--ink)}
+@media(max-width:900px){.hero-bot{max-width:none}.quick-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.quick-head{display:block}.quick-head p{margin-top:12px}.delivery-grid{grid-template-columns:1fr;gap:24px}.hero-copy{margin-top:-13svh}.hero-media::after{background:linear-gradient(to top,var(--night) 0%,rgba(243,238,229,.85) 20%,rgba(243,238,229,0) 52%)}}
+@media(max-width:560px){.quick-shop{padding-block:48px}.quick-grid{grid-template-columns:1fr;gap:34px}.quick-photo{aspect-ratio:1.25}.quick-card h3{font-size:1.7rem}.quick-head h2{font-size:2.7rem}.foot-base{padding-bottom:20px}.rushy-credit{padding-bottom:98px}.hero h1{font-size:17vw}.hero-bot .ctas{display:grid;grid-template-columns:1fr;width:100%}}
+</style>
+<header class="hdr" id="hdr">
+  <div class="wrap">
+    <a class="mark" href="#inicio" data-scroll aria-label="Nelumbo Deco, inicio"><img src="assets/img/logo-nelumbo.png" alt="Nelumbo Deco"></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#comprar" data-scroll>Colección</a>
+      <a href="#showroom" data-scroll>Showroom 3D</a>
+      <a href="#studio" data-scroll>Estudio visual</a>
+      <a href="#contacto" data-scroll>Contacto</a>
+    </nav>
+    <div class="hdr-r">
+      <button class="cart-btn" id="cartBtn" aria-label="Abrir mi selección" data-c="sm"><span class="lbl">Mi selección</span><span class="cart-count" id="cartCount">0</span></button>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true">
+  <div class="wrap menu-top"><span class="mark"><img src="assets/img/logo-nelumbo.png" alt="Nelumbo Deco"></span><button class="link" id="menuClose">Cerrar</button></div>
+  <ol class="wrap">
+    <li><a href="#comprar" data-scroll>Colección<span class="mono">01</span></a></li>
+    <li><a href="#showroom" data-scroll>Showroom 3D<span class="mono">02</span></a></li>
+    <li><a href="#arte" data-scroll>Inspiración<span class="mono">03</span></a></li>
+    <li><a href="#studio" data-scroll><em>Estudio visual</em><span class="mono">03</span></a></li>
+    <li><a href="#concierge" data-scroll>Asesoramiento<span class="mono">04</span></a></li>
+    <li><a href="#profesionales" data-scroll>Profesionales<span class="mono">05</span></a></li>
+    <li><a href="#contacto" data-scroll>Contacto<span class="mono">06</span></a></li>
+  </ol>
+  <div class="wrap menu-foot"><span>WhatsApp +54 9 11 5982-6889</span><a href="https://www.instagram.com/nelumbodeco/" target="_blank" rel="noopener">Instagram @nelumbodeco</a></div>
+</div>
+
+<main>
+<!-- HERO -->
+<section class="hero night" id="inicio">
+  <div class="hero-weave" aria-hidden="true"></div>
+  <div class="hero-media">
+    <img id="heroImg" src="assets/img/rinna-ambiente.jpg" alt="Lámpara colgante RINNA encendida sobre una mesa de comedor en un living cálido" fetchpriority="high">
+    <div class="hero-glow" id="heroGlow"></div>
+    <div class="hero-dim" id="heroDim"></div>
+  </div>
+  <div class="hero-copy wrap">
+    <div class="hero-top"><span class="eyebrow">Luz natural, diseño con alma</span><span class="mono">Medida · color · material a elección</span></div>
+    <h1 class="display" id="heroTitle" aria-label="La luz cambia todo.">
+      <span class="row">La luz</span>
+      <span class="row"><em>cambia</em></span>
+      <span class="row">todo.</span>
+    </h1>
+    <div class="hero-bot">
+      <p class="lede">Hay objetos que iluminan. Y otros que transforman la manera de vivir un espacio.</p>
+      <div class="ctas">
+        <a class="btn btn-solid" href="#comprar" data-scroll><span class="l">Elegir mi lámpara</span><span class="ar">→</span></a>
+        <a class="btn btn-ghost" href="https://api.whatsapp.com/send?phone=5491159826889&amp;text=Hola%20Nelumbo%2C%20quiero%20elegir%20una%20lampara." target="_top" rel="noopener"><span class="l">Consultar por WhatsApp</span></a>
+      </div>
+    </div>
+  </div>
+  <button class="cord" id="cord" aria-pressed="true" aria-label="Apagar la luz" data-c="Tirar"><span class="cord-line"></span><span class="cord-bead"></span><span class="cord-label" id="cordLabel">Tirá para apagar</span></button>
+  <div class="hero-cap"><span>N.º 01 — RINNA</span><button data-open="rinna">Ver pieza</button></div>
+</section>
+
+<section class="quick-shop wrap" id="comprar" data-hdr="light" aria-labelledby="quickTitle">
+ <div class="quick-head"><div><span class="eyebrow">La colección, a tu alcance</span><h2 class="display" id="quickTitle">Tu próxima <em>luz.</em></h2></div><p>Elegí una pieza, mirá sus detalles y consultá por WhatsApp. Sin formularios previos.</p></div>
+ <div class="quick-filters" role="group" aria-label="Filtrar colección"><button class="chip" data-line="all" aria-pressed="true">Todas las piezas</button><button class="chip" data-line="handmade" aria-pressed="false">Tejido manual</button><button class="chip" data-line="3d" aria-pressed="false">Línea 3D</button></div>
+ <div class="quick-grid" id="quickGrid"></div><p id="quickCount" class="sr-only" aria-live="polite"></p>
+</section>
+<section class="delivery wrap" id="entregas" data-hdr="light" aria-labelledby="deliveryTitle">
+ <h2 class="display" id="deliveryTitle">Hechas con tiempo. <em>Para durar.</em></h2>
+ <div class="delivery-grid"><div><h3>Línea 3D · 7 a 10 días</h3><p>Si no hay stock en el momento, la fabricación demora entre 7 y 10 días, según el producto.</p></div><div><h3>Tejido manual · unos 10 días</h3><p>El plazo depende de la demanda. Consultanos si hay stock disponible para tu pieza.</p></div><div><h3>Modelos grandes · a pedido</h3><p>Los modelos de 50 a 80 cm se realizan a pedido. Coordinamos las características y el plazo de tu pieza.</p></div></div>
+ <p class="delivery-note">Estos son tiempos estimados de fabricación. El envío se coordina por separado según tu localidad.</p>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee" aria-hidden="true" data-hdr="light"><div class="mq-track" id="mq"><span>Medida a elección<b>✦</b>Color a elección<b>✦</b>Material a elección<b>✦</b>Hecho a pedido<b>✦</b></span><span>Medida a elección<b>✦</b>Color a elección<b>✦</b>Material a elección<b>✦</b>Hecho a pedido<b>✦</b></span></div></div>
+
+<!-- MANIFESTO -->
+<section class="manifesto wrap" data-hdr="light">
+  <div class="man-grid">
+    <span class="eyebrow man-label">Manifiesto</span>
+    <p class="man-text" id="manText">Hay piezas disponibles y otras que creamos para vos. <em>La medida, el color y el material</em> los elegís vos. Porque una lámpara no es un accesorio más: es lo que decide cómo se siente un espacio cuando cae la tarde.</p>
+    <div class="facts">
+      <div class="fact"><span class="mono">01</span><b>Hecha a tu medida</b><span>Elegís medida, color y material entre una amplia variedad de modelos.</span></div>
+      <div class="fact"><span class="mono">02</span><b>Elegí sin vueltas</b><span>Encontrá tu pieza y consultanos en un toque.</span></div>
+      <div class="fact"><span class="mono">03</span><b>Asesoramiento directo</b><span>El equipo de Nelumbo te responde por WhatsApp con la lista de precios.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- COLLECTION -->
+<section class="coll" id="coleccion" data-hdr="light">
+  <div class="coll-pin" id="collPin">
+    <div class="h-track" id="hTrack">
+      <div class="intro-panel">
+        <div><span class="eyebrow" style="color:var(--bronze)">La colección</span></div>
+        <h2 class="display">Objetos<br><em>de luz</em></h2>
+        <div style="display:flex;flex-direction:column;gap:26px">
+          <p class="lede">Piezas fotografiadas tal cual son. Cada una se puede pedir en otra medida, color o material.</p>
+          <span class="hint"><i></i>Desplazá para recorrer</span>
+        </div>
+      </div>
+      <!-- product panels injected -->
+    </div>
+    <div class="coll-prog" aria-hidden="true"><span id="collNow">01</span><div class="rail"><i id="collRail"></i></div><span>07</span></div>
+  </div>
+</section>
+
+<!-- SHOWROOM 3D -->
+<section class="sr night" id="showroom" aria-label="Showroom 3D de la colección">
+  <div class="sr-stage" id="srStage" data-c="Girar">
+    <div class="sr-fallback" id="srFallback" hidden><p>Tu navegador no puede mostrar el showroom 3D. <a href="#comprar" data-scroll>Ver la colección</a>.</p></div>
+  </div>
+  <div class="sr-top wrap">
+    <div><span class="eyebrow">Showroom 3D</span><h2 class="display">Recorré la colección <em>en 3D.</em></h2></div>
+    <p class="r">Deslizá para girar la sala. Cada pieza aparece con su fotografía original y se enciende al quedar al frente.</p>
+  </div>
+  <div class="sr-bot wrap">
+    <div class="sr-info" id="srInfo">
+      <div class="sr-num"><span id="srIdx">01</span><i><b id="srBar"></b></i><span>07</span></div>
+      <div class="sr-name" id="srName">RINNA</div>
+      <div class="sr-cat" id="srCat">Lámpara colgante</div>
+      <p class="sr-desc" id="srDesc"></p>
+      <div class="ctas"><button class="btn btn-solid" id="srOpen" style="color:var(--night)"><span class="l">Ver pieza</span><span class="ar">→</span></button><button class="btn btn-ghost" id="srTry" style="color:var(--on-night)"><span class="l">Probar en mi casa</span></button></div>
+    </div>
+    <div class="sr-ctrls">
+      <div class="sr-hint" aria-hidden="true"><svg width="34" height="14" viewBox="0 0 34 14" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M6 1L1 7l5 6M28 1l5 6-5 6M1 7h32"/></svg>Deslizá para girar</div>
+      <div class="sr-dots" id="srDots" role="tablist" aria-label="Piezas"></div>
+      <div class="sr-tgl"><button class="tbtn" id="srLight" aria-pressed="true">Luz encendida</button><button class="tbtn" id="srZoom" aria-pressed="false">Acercar</button><button class="tbtn" id="srAuto" aria-pressed="true">Giro automático</button></div>
+      <div class="sr-arrows"><button class="sr-arr" id="srPrev" aria-label="Pieza anterior"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M15 5l-7 7 7 7"/></svg></button><button class="sr-arr" id="srNext" aria-label="Pieza siguiente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M9 5l7 7-7 7"/></svg></button></div>
+    </div>
+  </div>
+</section>
+
+<!-- INDEX -->
+<section class="index night wrap" id="indice">
+  <div class="idx-head">
+    <h2 class="display">Índice de <em>piezas</em></h2>
+    <p class="lede">Colgantes y veladores. Pasá por cada nombre para ver la pieza; tocalo para abrirla.</p>
+  </div>
+  <ul class="idx-list" id="idxList"></ul>
+  <div class="idx-float" id="idxFloat" aria-hidden="true"><div class="disc"></div><img id="idxImg" alt=""></div>
+</section>
+
+<!-- ART OF LIGHT -->
+<section class="art night" id="arte">
+  <div class="art-stage wrap" id="artStage">
+    <div class="chap" data-chap="0">
+      <div class="chap-txt">
+        <span class="mono">Capítulo I — Atmósfera</span>
+        <h2 class="display">La luz no ocupa espacio. <em>Lo transforma.</em></h2>
+        <p class="lede">Una sola pieza alcanza para cambiar cómo se siente un cuarto: la altura del techo, el color de las paredes, la calma.</p>
+      </div>
+      <div class="chap-frame"><img style="object-position:50% 22%" src="assets/img/danna-ambiente.jpg" alt="Lámpara Danna instalada en un dormitorio de tonos grises" loading="lazy"></div>
+    </div>
+    <div class="chap" data-chap="1">
+      <div class="chap-txt">
+        <span class="mono">Capítulo II — Materialidad</span>
+        <h2 class="display">La belleza está en <em>los detalles.</em></h2>
+        <p class="lede">Nudos, tramas y terminaciones que se aprecian de cerca. Así son las piezas reales, sin retoques de forma ni de color.</p>
+      </div>
+      <div class="chap-frame">
+        <div class="mosaic">
+          <figure><img src="assets/img/runa-trama.jpg" alt="Nudos de la pantalla tejida del velador RUNA" loading="lazy"><figcaption>RUNA · trama</figcaption></figure>
+          <figure><img src="assets/img/danna-tejido.jpg" alt="Tejido de la lámpara Danna encendida" loading="lazy"><figcaption>Danna · tejido</figcaption></figure>
+          <figure><img src="assets/img/nelumbo-sello.jpg" alt="Etiqueta Nelumbo Deco y portalámparas dorado del velador RUNA negro" loading="lazy"><figcaption>El sello</figcaption></figure>
+          <figure><img src="assets/img/rinna-lineas.jpg" alt="Líneas horizontales de la lámpara RINNA encendida" loading="lazy"><figcaption>RINNA · luz difusa</figcaption></figure>
+        </div>
+      </div>
+    </div>
+    <div class="chap" data-chap="2">
+      <div class="chap-txt">
+        <span class="mono">Capítulo III — Tu espacio</span>
+        <h2 class="display">El próximo espacio que vamos a transformar <em>puede ser el tuyo.</em></h2>
+        <p class="lede">Subí una foto de tu ambiente y ubicá cualquier pieza de la colección para ver cómo quedaría.</p>
+        <div class="ctas"><a class="btn btn-solid" href="#studio" data-scroll><span class="l">Descubrí cómo queda en tu casa</span><span class="ar">→</span></a></div>
+      </div>
+      <div class="chap-frame"><img style="object-position:50% 26%" src="assets/img/rinna-principal.jpg" alt="Lámpara RINNA encendida sobre un sillón en un rincón de living" loading="lazy"></div>
+    </div>
+    <div class="art-rail" aria-hidden="true"><span class="on">I<i><b></b></i></span><span>II<i><b></b></i></span><span>III<i><b></b></i></span></div>
+  </div>
+</section>
+
+<!-- LIGHT MOOD -->
+<section class="mood wrap" id="luz" data-hdr="light">
+  <div class="mood-grid">
+    <div class="mood-stage" id="moodStage">
+      <img class="base" id="moodBase" src="assets/img/rinna-ambiente.jpg" alt="Living con la lámpara RINNA; la escena cambia con la temperatura e intensidad elegidas" loading="lazy">
+      <img class="lit" id="moodLit" src="assets/img/rinna-ambiente.jpg" alt="" loading="lazy">
+      <div class="mood-tint" id="moodTint"></div>
+      <div class="mood-glow" id="moodGlow"></div>
+      <div class="mood-k" id="moodK">2700 K<small>Intensidad 80%</small></div>
+    </div>
+    <div class="mood-panel">
+      <span class="eyebrow" style="color:var(--bronze)">Light Mood</span>
+      <h2 class="display">El mismo cuarto, <em>otra luz.</em></h2>
+      <div class="rng"><label for="kIn"><span>Temperatura de color</span><span class="mono" id="kV">2700 K · cálida</span></label><input class="kelvin" type="range" id="kIn" min="2700" max="6500" step="50" value="2700"></div>
+      <div class="rng"><label for="iIn"><span>Intensidad</span><span class="mono" id="iV">80%</span></label><input type="range" id="iIn" min="5" max="100" value="80"></div>
+      <div class="presets" role="group" aria-label="Escenas">
+        <button class="chip" data-k="2700" data-i="80" aria-pressed="true">Cena · 2700 K</button>
+        <button class="chip" data-k="2700" data-i="28" aria-pressed="false">Noche · 2700 K</button>
+        <button class="chip" data-k="4000" data-i="90" aria-pressed="false">Trabajo · 4000 K</button>
+        <button class="chip" data-k="6000" data-i="100" aria-pressed="false">Día · 6000 K</button>
+      </div>
+      <p class="mood-copy" id="moodCopy"></p>
+      <p class="note">Simulación visual. La temperatura y la intensidad reales dependen de la lámpara (bombilla) que se instale en cada pieza; no todas las configuraciones son regulables.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ESTUDIO VISUAL -->
+<section class="studio night" id="studio">
+  <div class="wrap">
+    <div class="st-head">
+      <span class="eyebrow">Nelumbo Estudio visual</span>
+      <h2 class="display" id="stTitle">Tu casa. <em>Una nueva luz.</em></h2>
+      <p class="lede">Subí una foto de tu espacio, elegí tu lámpara favorita y descubrí cómo podría transformar tu ambiente.</p>
+    </div>
+
+    <div class="app" id="app">
+      <div class="app-bar">
+        <div class="dots"><i></i><i></i><i></i></div>
+        <div class="prog" id="prog"><div class="on"><i></i>Tu espacio</div><div><i></i>Lámpara</div><div><i></i>Ubicación</div><div><i></i>Resultado</div></div>
+        <span class="mono" style="color:var(--on-night-2)" id="roomName">Ambiente de ejemplo</span>
+      </div>
+      <div class="app-body">
+        <div class="stage" id="stage">
+          <canvas id="cv" width="1096" height="1186" aria-label="Vista previa de tu ambiente con la lámpara elegida. Arrastrá para mover, pellizcá para escalar."></canvas>
+          <div class="stage-tools">
+            <button class="glass gbtn" id="upBtn" data-c="sm"><i></i>Subir foto de mi espacio</button>
+            <div style="display:flex;gap:6px"><button class="glass gbtn" id="tGlow" aria-pressed="true">Encendida</button><button class="glass gbtn" id="useSample">Ejemplo</button></div>
+          </div>
+          <span class="glass stage-hint" id="stageHint">Tocá donde la querés · arrastrá para mover</span>
+          <input class="vh" type="file" id="roomFile" accept="image/*">
+          <div class="gen" id="gen" hidden><div class="sweep" id="sweep"></div><div><p id="genMsg">Estamos imaginando tu espacio…</p><div class="bar"><i id="genBar"></i></div></div></div>
+        </div>
+        <div class="side">
+          <div class="tabs" role="tablist">
+            <button role="tab" aria-selected="true" data-tab="lamp">Lámpara</button>
+            <button role="tab" aria-selected="false" data-tab="adj">Ajustar</button>
+            <button role="tab" aria-selected="false" data-tab="ai">Ayuda</button>
+          </div>
+          <div class="pane" data-pane="lamp" role="tabpanel">
+            <div class="lamp-grid" id="lamps"></div>
+          </div>
+          <div class="pane" data-pane="adj" role="tabpanel" hidden>
+            <div class="rng"><label for="cScale"><span>Escala</span><span class="mono" id="cScaleV"></span></label><input type="range" id="cScale" min="6" max="80" value="24"></div>
+            <div class="rng"><label for="cY"><span>Altura visual</span><span class="mono" id="cYV"></span></label><input type="range" id="cY" min="0" max="100" value="40"></div>
+            <div class="rng"><label for="cX"><span>Posición horizontal</span><span class="mono" id="cXV"></span></label><input type="range" id="cX" min="2" max="98" value="50"></div>
+            <div class="rng"><label for="cRot"><span>Orientación</span><span class="mono" id="cRotV">0°</span></label><input type="range" id="cRot" min="-15" max="15" value="0"></div>
+            <div class="rng" id="cableRow" hidden><label for="cCable"><span>Largo de cable</span><span class="mono" id="cCableV"></span></label><input type="range" id="cCable" min="0" max="45" value="10"></div>
+            <div class="rng"><label for="cExp"><span>Integración con la luz del cuarto</span><span class="mono" id="cExpV">auto</span></label><input type="range" id="cExp" min="60" max="130" value="100"></div>
+            <div class="tgl"><button class="tbtn" id="tFlip" aria-pressed="false">Espejar</button><button class="tbtn" id="tReset">Restablecer</button></div>
+          </div>
+          <div class="pane" data-pane="ai" role="tabpanel" hidden>
+            <div class="ai-card">
+              <b>Ubicación sugerida</b>
+              <p>Ubicá la pieza en una posición inicial según su tipo y ajustala a mano.</p>
+              <p class="ai-out" id="aiOut"></p>
+              <button class="btn btn-solid" id="aiSuggest"><span class="l">Sugerir ubicación</span></button>
+            </div>
+            <p class="note">El motor de fotorrealismo con IA, que genera sombras e iluminación, está preparado y pendiente de activación. Hoy la visualización combina tu foto con la fotografía real de la pieza, sin cambiar su diseño ni tu decoración.</p>
+          </div>
+          <div class="side-foot">
+            <button class="btn btn-solid" id="revealBtn"><span class="l">Ver visualización</span><span class="ar">→</span></button>
+            <small id="selName">Velador RUNA · Natural</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="result" id="result" hidden>
+      <div>
+        <div class="compare" id="compare">
+          <img id="afterImg" alt="Tu espacio con la lámpara elegida">
+          <div class="before"><img id="beforeImg" alt="Tu espacio original"></div>
+          <div class="handle" id="handle"></div>
+          <span class="tag l glass">Antes</span><span class="tag r glass">Después</span>
+          <input type="range" id="cmp" min="0" max="100" value="50" aria-label="Comparar antes y después">
+        </div>
+        <div style="display:flex;justify-content:space-between;gap:12px;margin-top:12px;align-items:center;flex-wrap:wrap"><p class="status" id="resLabel">Visualización orientativa · composición con la foto real de la pieza</p><button class="link" id="zoomBtn" style="color:var(--on-night)">Ampliar</button></div>
+      </div>
+      <div class="res-side">
+        <span class="eyebrow" style="color:var(--bronze-hi)" id="resEyebrow"></span>
+        <h3>Me encanta. <em>Quiero esta lámpara.</em></h3>
+        <div class="acts">
+          <button class="btn btn-solid" id="aBuy"><span class="l">Consultar esta lámpara</span><span class="ar">→</span></button>
+          <a class="btn btn-ghost" id="aWa" href="https://api.whatsapp.com/send?phone=5491159826889&amp;text=Hola%20Nelumbo%2C%20quiero%20hacer%20una%20consulta." target="_top" rel="noopener" style="color:var(--on-night)"><span class="l">Consultar por WhatsApp</span></a>
+          <div class="row"><button class="btn btn-ghost" id="aOther" style="color:var(--on-night)"><span class="l">Otro modelo</span></button><button class="btn btn-ghost" id="aDl" style="color:var(--on-night)"><span class="l">Descargar</span></button></div>
+          <button class="btn btn-ghost" id="aShare" style="color:var(--on-night)"><span class="l">Compartir resultado</span></button>
+        </div>
+        <label class="consent"><input type="checkbox" id="waShare"> <span>Quiero avisar en WhatsApp que tengo la visualización para adjuntarla.</span></label>
+        <p class="status" id="actStatus"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONCIERGE -->
+<section class="cc wrap" id="concierge" data-hdr="light">
+  <div class="cc-grid">
+    <div class="cc-intro">
+      <span class="eyebrow" style="color:var(--bronze)">Nelumbo Concierge</span>
+      <h2 class="display">Tu asesor de <em>iluminación.</em></h2>
+      <p class="lede">Seis preguntas sobre tu espacio y te recomendamos piezas de la colección, con el porqué de cada una. Si preferís hablar con una persona, te pasamos con el equipo por WhatsApp.</p>
+      <button class="link" id="ccRestart" style="align-self:flex-start">Empezar de nuevo</button>
+    </div>
+    <div class="chat">
+      <div class="chat-head">
+        <div class="chat-id"><span class="av" aria-hidden="true"></span><div><b>Concierge</b><small><i></i><span id="ccMode">Asesor de colección</span></small></div></div>
+        <span class="pill" title="Conversación por voz preparada para conectar a una API de voz">Asesoramiento guiado</span>
+      </div>
+      <div class="chat-log" id="chatLog" aria-live="polite"></div>
+      <form class="chat-in" id="chatForm"><label for="chatIn" class="vh">Escribí tu pregunta</label><input id="chatIn" placeholder="Escribí tu pregunta…" autocomplete="off"><button type="submit">Enviar</button></form>
+    </div>
+  </div>
+</section>
+
+<!-- PROS -->
+<section class="pros" id="profesionales" data-hdr="light">
+  <div class="wrap">
+    <div class="pros-grid">
+      <div class="big-ph"><img id="prosImg" src="assets/img/danna-ambiente.jpg" alt="Lámpara Danna en un dormitorio terminado" loading="lazy"></div>
+      <div class="card">
+        <span class="eyebrow" style="color:var(--bronze)">Arquitectos e interioristas</span>
+        <h2 class="display">Diseñamos espacios extraordinarios, <em>juntos.</em></h2>
+        <p class="lede">Piezas a medida para proyectos de arquitectura, decoración e interiorismo: medidas, colores y materiales definidos para cada obra.</p>
+        <form class="pf" id="proForm" novalidate>
+          <div class="field"><label for="pfName">Nombre y estudio</label><input id="pfName" autocomplete="name"></div>
+          <div class="field"><label for="pfMail">Email</label><input id="pfMail" type="email" autocomplete="email"></div>
+          <div class="field full"><label for="pfType">Tipo de proyecto</label><select id="pfType"><option>Interiorismo residencial</option><option>Obra de arquitectura</option><option>Hotelería y gastronomía</option><option>Compra por cantidad (a confirmar)</option></select></div>
+          <div class="field full"><label for="pfMsg">Contanos el proyecto</label><textarea id="pfMsg" rows="2"></textarea></div>
+          <div class="field full" style="flex-direction:row;align-items:center;gap:16px;flex-wrap:wrap"><button class="btn btn-solid" type="submit"><span class="l">Enviar consulta</span><span class="ar">→</span></button><span class="note" style="border:0;padding:0">Condiciones mayoristas: <span class="tbd">a confirmar</span></span></div>
+          <p class="form-msg" id="pfOut"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer class="foot night" id="contacto">
+  <div class="wrap">
+    <div class="foot-cta">
+      <h2 class="display">Hablemos de <em>tu luz.</em></h2>
+      <div class="ctas"><a class="btn btn-solid" href="https://api.whatsapp.com/send?phone=5491159826889&text=Hola%20Nelumbo%2C%20quiero%20la%20lista%20de%20precios." target="_top" rel="noopener"><span class="l">Pedir lista de precios</span><span class="ar">→</span></a></div>
+    </div>
+    <div class="foot-grid">
+      <div><h4>WhatsApp</h4><div class="copyrow"><p><a href="https://api.whatsapp.com/send?phone=5491159826889&amp;text=Hola%20Nelumbo%2C%20quiero%20hacer%20una%20consulta." target="_top" rel="noopener">+54 9 11 5982-6889</a></p><button class="copybtn" data-copy="+54 9 11 5982-6889">Copiar</button></div></div>
+      <div><h4>Tienda</h4><a href="https://www.nelumbodeco.com.ar" target="_blank" rel="noopener">nelumbodeco.com.ar</a><a href="https://www.instagram.com/nelumbodeco/" target="_blank" rel="noopener">Instagram @nelumbodeco</a></div>
+      <div><h4>Tu pedido</h4><p>Coordiná disponibilidad, entrega y pago por WhatsApp.</p><a href="#entregas" data-scroll>Ver tiempos de fabricación</a></div>
+      <div><h4>Taller</h4><p>Consultá dirección y horarios por WhatsApp.</p><p>Envíos y plazos a confirmar según tu localidad.</p></div>
+    </div>
+  </div>
+  <div class="foot-word wrap" id="footWord" aria-hidden="true"><img src="assets/img/logo-nelumbo.png" alt=""></div>
+  <div class="foot-base wrap"><span>© Nelumbo Deco</span><span>Fotografías de producto: Nelumbo Deco</span></div>
+<a class="rushy-credit" href="https://api.whatsapp.com/send?phone=5491135618554&amp;text=Hola%2C%20vi%20la%20web%20de%20Nelumbo%20Deco%20y%20quiero%20una%20para%20mi%20negocio." target="_top" rel="noopener" aria-label="Web desarrollada por Rushy AI. Pedí tu web por WhatsApp"><img src="assets/img/logo-rushy-ai.png" alt="Logo Rushy AI" width="44" height="44" loading="lazy"><div><span>Web desarrollada por <strong>Rushy AI</strong></span><span class="rushy-cta">Quiero una web para mi negocio ↗</span></div></a>
+</footer>
+
+<a class="wa" id="waFloat" href="https://api.whatsapp.com/send?phone=5491159826889&text=Hola%20Nelumbo%2C%20quiero%20hacer%20una%20consulta." target="_top" rel="noopener" aria-label="Consultar por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.3-.4.8-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.8 2.3.9 2.5c.1.2 1.6 2.5 4 3.5 1.5.6 2 .7 2.8.6.4-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.4-.3Z"/></svg>
+  <span class="t">WhatsApp</span>
+</a>
+
+<!-- Product -->
+<div class="ov" id="pdOv" aria-hidden="true">
+  <div class="pd" role="dialog" aria-modal="true" aria-labelledby="pdName">
+    <button class="pd-close" id="pdClose">Cerrar</button>
+    <div class="pd-media"><div class="pd-main" id="pdMain"></div><div class="pd-thumbs" id="pdThumbs"></div></div>
+    <div class="pd-info wrap" id="pdInfo">
+      <span class="eyebrow" style="color:var(--bronze)" id="pdCat"></span>
+      <h2 class="display" id="pdName"></h2>
+      <p class="lede" id="pdDesc" style="max-width:40ch"></p>
+      <div id="pdVarWrap"><span class="eyebrow" style="font-size:.58rem;color:var(--muted)">Variante</span><div class="swatches" id="pdVars" style="margin:12px 0 0"></div></div>
+      <dl class="spec" id="pdSpec"></dl>
+      <div class="acts">
+        <a class="btn btn-solid" id="pdShop" href="https://www.nelumbodeco.com.ar" target="_top" rel="noopener" hidden>Comprar online ↗</a>
+        <button class="btn btn-ghost" id="pdAdd"><span class="l">Agregar a mi selección</span><span class="ar">→</span></button>
+        <div class="row"><button class="btn btn-ghost" id="pdTry"><span class="l">Ver en mi casa</span></button><a class="btn btn-ghost" id="pdWa" href="https://api.whatsapp.com/send?phone=5491159826889&amp;text=Hola%20Nelumbo%2C%20quiero%20hacer%20una%20consulta." target="_top" rel="noopener"><span class="l">Consultar por WhatsApp</span></a></div>
+      </div>
+      <div><span class="eyebrow" style="font-size:.58rem;color:var(--muted)">También te puede gustar</span><div class="related" id="pdRel" style="margin-top:14px"></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Cart -->
+<div class="ov" id="cartOv" aria-hidden="true">
+  <div class="ov-bg" data-close></div>
+  <aside class="cart" role="dialog" aria-modal="true" aria-label="Mi selección">
+    <div class="cart-head"><b>Mi selección</b><button class="link" data-close>Cerrar</button></div>
+    <div class="cart-list" id="cartList"></div>
+    <div class="cart-foot"><strong id="cartTotal"></strong><small>Confirmamos stock, fabricación, envío y pago por WhatsApp.</small>
+      <a class="btn btn-solid" id="cartWa" href="https://api.whatsapp.com/send?phone=5491159826889" target="_top" rel="noopener">Enviar selección por WhatsApp →</a>
+      <small>Tu selección se prepara como mensaje. No necesitás crear una cuenta ni completar datos para consultar.</small>
+      <details hidden><summary>Guardar una solicitud en la web (opcional)</summary><form id="orderForm"><label>Tu nombre<input name="name" required maxlength="100" autocomplete="name"></label><label>WhatsApp o email<input name="contact" required maxlength="150" autocomplete="email"></label><label>Localidad / entrega<input name="delivery" required maxlength="200"></label><button id="orderSubmit" class="btn btn-solid" type="submit">Registrar pedido</button><p id="orderStatus" role="status"></p></form></details>
+      <a class="link" href="https://www.nelumbodeco.com.ar/productos" target="_top" rel="noopener">Ver tienda de Nelumbo ↗</a>
+    </div>
+  </aside>
+</div>
+
+<!-- Consent -->
+<div class="ov" id="consentOv" aria-hidden="true">
+  <div class="ov-bg" data-close></div>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="csT">
+    <h3 id="csT">Antes de subir tu foto</h3>
+    <p>Tu foto se usa solo para generar la visualización. Se procesa en este navegador y no se guarda. La sugerencia de ubicación funciona en tu dispositivo.</p>
+    <div class="row"><button class="btn btn-solid" id="csOk"><span class="l">Acepto, elegir foto</span></button><button class="btn btn-ghost" data-close><span class="l">Ahora no</span></button></div>
+  </div>
+</div>
+
+<!-- Lightbox -->
+<div class="ov" id="lbOv" aria-hidden="true">
+  <div class="lb" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+    <div class="lb-top"><span class="eyebrow" id="lbCap">Ampliar</span><div class="tgl"><button class="tbtn" id="lbZoom" aria-pressed="false" style="color:var(--on-night)">Zoom</button><button class="tbtn" data-close style="color:var(--on-night)">Cerrar</button></div></div>
+    <div class="lb-scroll"><img id="lbImg" class="fit" alt=""></div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script>
+(() => {
+"use strict";
+const WA="5491159826889", STORE="https://www.nelumbodeco.com.ar";
+const AI_RENDER_ENDPOINT=""; // Next.js /api/visualize — vacío = pendiente de activación
+
+/* Catálogo real (nelumbodeco.com.ar) */
+const P=[{"id": "rinna", "name": "RINNA", "cat": "colgante", "catLabel": "Lámpara colgante", "type": "pendant", "desc": "Una esfera achatada de líneas horizontales que difumina la luz hacia todo el ambiente.", "photos": ["assets/img/rinna-principal.jpg", "assets/img/rinna-ambiente.jpg"], "variants": [{"name": "Como en la foto", "cut": "assets/img/rinna-cut.webp", "photo": "assets/img/rinna-principal.jpg"}], "bulb": [0.5, 0.74], "h": 0.36, "line": "handmade", "availability": "consult", "largeModel": false, "shopUrl": "https://www.nelumbodeco.com.ar/lamparas-colgantes/rinna", "onlineEnabled": false, "price": null, "active": true}, {"id": "danna", "name": "Danna", "cat": "colgante", "catLabel": "Lámpara colgante", "type": "pendant", "desc": "Pétalos tejidos que se abren alrededor de la luz y dibujan su trama sobre el techo.", "photos": ["assets/img/danna-principal.jpg", "assets/img/danna-ambiente.jpg"], "variants": [{"name": "Beige", "cut": "assets/img/danna-cut.webp", "photo": "assets/img/danna-principal.jpg"}], "bulb": [0.5, 0.55], "h": 0.34, "addCable": true, "cable": 12, "line": "handmade", "availability": "consult", "largeModel": false, "shopUrl": "", "onlineEnabled": false, "price": null, "active": true}, {"id": "runa", "name": "Velador RUNA", "short": "RUNA", "cat": "velador", "catLabel": "Velador", "type": "table", "desc": "Base trípode de madera, portalámparas dorado y pantalla tejida. Para mesa de luz, aparador o escritorio.", "photos": ["assets/img/runa-natural.jpg", "assets/img/runa-negro.jpg", "assets/img/runa-trama-abierta.jpg"], "variants": [{"name": "Natural", "cut": "assets/img/runa-natural-cut.webp", "photo": "assets/img/runa-natural.jpg"}, {"name": "Negro", "cut": "assets/img/runa-negro-cut.webp", "photo": "assets/img/runa-negro.jpg"}, {"name": "Trama abierta", "cut": "assets/img/runa-trama-abierta-cut.webp", "photo": "assets/img/runa-trama-abierta.jpg"}], "bulb": [0.5, 0.27], "h": 0.24, "line": "handmade", "availability": "consult", "largeModel": false, "shopUrl": "https://www.nelumbodeco.com.ar/veladores/velador-runa", "onlineEnabled": false, "price": null, "active": true}, {"id": "undha", "name": "UNDHA", "cat": "colgante", "catLabel": "Lámpara colgante", "type": "pendant", "desc": "Dos tambores tejidos, uno dentro del otro: la luz pasa en capas.", "photos": ["assets/img/undha-principal.jpg"], "variants": [{"name": "Como en la foto", "cut": "assets/img/undha-cut.webp", "photo": "assets/img/undha-principal.jpg"}], "bulb": [0.5, 0.6], "h": 0.3, "addCable": true, "cable": 8, "line": "handmade", "availability": "consult", "largeModel": false, "shopUrl": "", "onlineEnabled": false, "price": null, "active": true}, {"id": "widya", "name": "WIDYA", "cat": "colgante", "catLabel": "Lámpara colgante", "type": "pendant", "desc": "Una banda tejida que se pliega sobre sí misma y deja escapar la luz por el borde.", "photos": ["assets/img/widya-principal.jpg"], "variants": [{"name": "Como en la foto", "cut": "assets/img/widya-cut.webp", "photo": "assets/img/widya-principal.jpg"}], "bulb": [0.5, 0.62], "h": 0.3, "line": "handmade", "availability": "consult", "largeModel": false, "shopUrl": "", "onlineEnabled": false, "price": null, "active": true}, {"id": "plegora", "name": "Lámpara 3D PLEGORA", "short": "PLEGORA", "cat": "colgante", "catLabel": "Lámpara colgante", "type": "pendant", "desc": "Pliegues geométricos que cambian con cada punto de vista.", "photos": ["assets/img/plegora-principal.jpg"], "variants": [{"name": "Como en la foto", "cut": "assets/img/plegora-cut.webp", "photo": "assets/img/plegora-principal.jpg"}], "bulb": [0.5, 0.65], "h": 0.32, "line": "3d", "availability": "consult", "largeModel": false, "shopUrl": "https://www.nelumbodeco.com.ar/lamparas-colgantes/lampara-3d-plegora", "onlineEnabled": false, "price": null, "active": true}, {"id": "bali", "name": "Lámpara BALI", "short": "BALI", "cat": "colgante", "catLabel": "Lámpara colgante", "type": "pendant", "desc": "Un cono alto y esbelto de hilos verticales que cae como una cortina de luz.", "photos": ["assets/img/bali-principal.jpg"], "variants": [{"name": "Como en la foto", "cut": "assets/img/bali-cut.webp", "photo": "assets/img/bali-principal.jpg"}], "bulb": [0.5, 0.55], "h": 0.38, "line": "handmade", "availability": "consult", "largeModel": false, "shopUrl": "", "onlineEnabled": false, "price": null, "active": true}];if(!P.length){document.querySelectorAll("#studio,#showroom,#concierge").forEach(el=>el.hidden=true);document.querySelector("#hTrack").innerHTML="<p style=\"padding:60px\">La colección se está renovando. Consultanos por WhatsApp.</p>";document.querySelector("#cartBtn").onclick=()=>{window.location.href="https://api.whatsapp.com/send?phone=5491159826889"};return;}
+const money=n=>new Intl.NumberFormat("es-AR",{style:"currency",currency:"ARS",maximumFractionDigits:2}).format(n);
+const priceText=p=>p.price==null?"Precio a consultar":money(p.price);
+const byId=id=>P.find(p=>p.id===id), sn=p=>p.short||p.name, hasVar=p=>p.variants.length>1;
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches, fine=matchMedia("(pointer:fine)").matches;
+const G=typeof window.gsap!=="undefined" && typeof window.ScrollTrigger!=="undefined";
+const anim=G&&!reduce;
+if(anim)document.documentElement.classList.add("anim");
+const waLink=t=>`https://api.whatsapp.com/send?phone=${WA}&text=${encodeURIComponent(t)}`;
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const shopUrl=p=>{try{const u=new URL(p.shopUrl);return u.protocol==="https:"&&["nelumbodeco.com.ar","www.nelumbodeco.com.ar"].includes(u.hostname)&&!u.username&&!u.password?u.href:""}catch{return ""}};
+const canBuy=p=>p.onlineEnabled===true&&p.price!=null&&!!shopUrl(p);
+function leadTime(p){if(p.largeModel)return "Modelo de 50 a 80 cm: se realiza a pedido. Consultá el plazo.";if(p.availability==="in_stock")return "Stock disponible. Coordiná la entrega.";if(p.line==="3d")return "Sin stock inmediato: 7 a 10 días, según el producto. Consultá disponibilidad.";if(p.line==="handmade")return "Tejido manual: unos 10 días, según la demanda. Consultá si hay stock.";return "Consultá disponibilidad y tiempo de fabricación.";}
+function productMessage(p){return `Hola Nelumbo, me interesa ${p.name}. Quiero confirmar precio, medidas, stock y entrega. ${leadTime(p)}`;}
+function renderQuick(filter="all"){
+ const items=P.filter(p=>filter==="all"||p.line===filter);
+ $("#quickGrid").innerHTML=items.map(p=>`<article class="quick-card"><button class="quick-photo" data-open="${esc(p.id)}" aria-label="Ver detalles de ${esc(p.name)}"><img src="${esc(p.variants[0].cut)}" alt="${esc(p.name)}" loading="lazy"><span class="quick-tag">${p.line==="3d"?"Línea 3D":p.line==="handmade"?"Tejido manual":esc(p.catLabel)}</span></button><h3><button data-open="${esc(p.id)}">${esc(p.name)}</button></h3><p class="quick-price">${priceText(p)}</p><p class="quick-time">${esc(leadTime(p))}</p><div class="quick-actions">${canBuy(p)?`<a class="btn btn-solid" href="${esc(shopUrl(p))}" target="_top" rel="noopener">Comprar online ↗</a>`:""}<a class="btn ${canBuy(p)?"btn-ghost":"btn-solid"}" href="${waLink(productMessage(p))}" target="_top" rel="noopener">Consultar por WhatsApp →</a></div><div class="quick-more"><button data-open="${esc(p.id)}">Ver detalles y variantes</button>${shopUrl(p)?`<a href="${esc(shopUrl(p))}" target="_top" rel="noopener">Ver en tienda ↗</a>`:""}</div></article>`).join("")||"<p>No hay piezas en esta línea por el momento.</p>";
+ $("#quickCount").textContent=`${items.length} piezas en la colección`;
+}
+renderQuick();$$("[data-line]").forEach(b=>b.onclick=()=>{$$("[data-line]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));renderQuick(b.dataset.line);if(G)requestAnimationFrame(()=>ScrollTrigger.refresh())});
+const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+function track(ev,data={}){try{(window.dataLayer=window.dataLayer||[]).push({event:ev,...data});if(window.fbq)window.fbq("trackCustom",ev,data)}catch(e){}}
+let tt;function toast(m){const t=$("#toast");t.textContent=m;t.classList.add("on");clearTimeout(tt);tt=setTimeout(()=>t.classList.remove("on"),2600)}
+async function copyText(x){try{await navigator.clipboard.writeText(x);toast("Copiado")}catch(e){toast(x)}}
+const cap=n=>Promise.resolve(null);
+if(G) gsap.registerPlugin(ScrollTrigger);
+
+/* Grain texture */
+(()=>{try{const c=document.createElement("canvas");c.width=c.height=160;const x=c.getContext("2d"),d=x.createImageData(160,160);for(let i=0;i<d.data.length;i+=4){const v=Math.random()*255;d.data[i]=d.data[i+1]=d.data[i+2]=v;d.data[i+3]=255}x.putImageData(d,0,0);$("#grain").style.background=`url(${c.toDataURL()})`}catch(e){}})();
+
+/* Button text roll */
+function rollify(root=document){$$(".btn .l",root).forEach(l=>{if(l.dataset.r)return;const t=l.textContent;l.dataset.r=1;l.innerHTML=`<span data-t="${esc(t)}">${esc(t)}</span>`})}
+rollify();
+
+/* Smooth scroll */
+let lenis=null;
+if(!reduce&&window.Lenis&&fine){try{lenis=new Lenis({duration:1.2,smoothWheel:true,wheelMultiplier:.95});if(G){lenis.on("scroll",ScrollTrigger.update);gsap.ticker.add(t=>lenis.raf(t*1000));gsap.ticker.lagSmoothing(0)}else{const raf=t=>{lenis.raf(t);requestAnimationFrame(raf)};requestAnimationFrame(raf)}}catch(e){lenis=null}}
+function goTo(sel){const el=$(sel);if(!el)return;closeMenu();if(lenis)lenis.scrollTo(el,{duration:1.6});else el.scrollIntoView({behavior:reduce?"auto":"smooth"})}
+document.addEventListener("click",e=>{const a=e.target.closest("[data-scroll]");if(!a)return;const h=a.getAttribute("href");if(h&&h[0]==="#"){e.preventDefault();goTo(h)}});
+function lock(on){document.documentElement.style.overflow=on?"hidden":"";if(lenis){on?lenis.stop():lenis.start()}}
+
+/* Header + WhatsApp visibility */
+const hdr=$("#hdr"),waF=$("#waFloat");let lastY=0;
+const hdrSecs=$$("main > section, main > div, footer");
+function onScroll(){const y=window.scrollY;hdr.classList.toggle("solid",y>40);let light=false;for(const s of hdrSecs){const r=s.getBoundingClientRect();if(r.top<=40&&r.bottom>40){light=s.dataset.hdr==="light";break}}hdr.classList.toggle("light",light);const menuOpen=$("#menu").classList.contains("open");hdr.classList.toggle("hide",y>lastY+2&&y>innerHeight*.9&&!menuOpen);if(y<lastY-2)hdr.classList.remove("hide");lastY=y}
+addEventListener("scroll",onScroll,{passive:true});onScroll();
+const menu=$("#menu");
+function openMenu(){menu.classList.add("open");menu.setAttribute("aria-hidden","false");lock(true)}
+function closeMenu(){if(!menu.classList.contains("open"))return;menu.classList.remove("open");menu.setAttribute("aria-hidden","true");lock(false)}
+$("#menuBtn").onclick=openMenu;$("#menuClose").onclick=closeMenu;
+$$("#menu ol a").forEach((a,i)=>a.style.transitionDelay=(.25+i*.06)+"s");
+
+/* Cursor */
+const cur=$("#cursor"),cLabel=$("#cLabel");
+if(fine&&!reduce&&G){let mx=innerWidth/2,my=innerHeight/2;const xs=gsap.quickTo(cur,"x",{duration:.5,ease:"power3"}),ys=gsap.quickTo(cur,"y",{duration:.5,ease:"power3"});
+ addEventListener("pointermove",e=>{xs(e.clientX);ys(e.clientY);if(cur.style.opacity==="")cur.style.opacity=1},{passive:true});
+ document.addEventListener("pointerover",e=>{const t=e.target.closest("[data-c],a,button,input,select,textarea,canvas");cur.classList.remove("big","sm");if(!t)return;const c=t.dataset.c;if(t.matches("input,select,textarea,canvas")){cur.style.opacity=t.matches("canvas")?.0:1;return}cur.style.opacity=1;if(c&&c!=="sm"){cur.classList.add("big");cLabel.textContent=c}else cur.classList.add("sm")});
+} else cur.remove();
+
+/* ═══════ HERO: light switch ═══════ */
+const heroImg=$("#heroImg"),dim=$("#heroDim"),glow=$("#heroGlow"),cord=$("#cord");
+let lightOn=true;
+function placeGlow(){const m=$(".hero-media"),r=m.getBoundingClientRect();const nw=1200,nh=1800,fx=.5,fy=.372;const s=Math.max(r.width/nw,r.height/nh);const dw=nw*s,dh=nh*s;const ox=(r.width-dw)*.5,oy=(r.height-dh)*.38;m.style.setProperty("--gx",(ox+fx*dw)+"px");m.style.setProperty("--gy",(oy+fy*dh)+"px")}
+placeGlow();addEventListener("resize",placeGlow);
+function setLight(on,instant){lightOn=on;cord.setAttribute("aria-pressed",on);cord.setAttribute("aria-label",on?"Apagar la luz":"Encender la luz");$("#cordLabel").textContent=on?"Tirá para apagar":"Tirá para encender";
+ if(!anim||instant){dim.style.opacity=on?0:.86;glow.style.opacity=on?1:0;return}
+ if(on){gsap.timeline().to(dim,{opacity:.25,duration:.05}).to(dim,{opacity:.75,duration:.07}).to(dim,{opacity:.12,duration:.05}).to(dim,{opacity:.5,duration:.1}).to(dim,{opacity:0,duration:1.1,ease:"power2.out"}).fromTo(glow,{opacity:0,scale:.7},{opacity:1,scale:1,duration:1.6,ease:"expo.out"},"<");}
+ else{gsap.to(dim,{opacity:.86,duration:.5,ease:"power2.in"});gsap.to(glow,{opacity:0,duration:.4})}
+ track("hero_light",{on})}
+let cy0=null,pulled=false;
+cord.addEventListener("pointerdown",e=>{cy0=e.clientY;pulled=false;cord.setPointerCapture(e.pointerId)});
+cord.addEventListener("pointermove",e=>{if(cy0===null)return;const d=Math.max(0,Math.min(70,e.clientY-cy0));cord.style.transform=`translateY(${d}px)`;if(d>44&&!pulled){pulled=true;setLight(!lightOn)}});
+const release=()=>{if(cy0===null)return;cy0=null;if(anim)gsap.fromTo(cord,{y:0},{y:0,duration:1.2,ease:"elastic.out(1.1,.3)",onStart:()=>{cord.style.transform="";},onComplete:()=>gsap.set(cord,{clearProps:"transform"})});else cord.style.transform=""};
+cord.addEventListener("pointerup",release);cord.addEventListener("pointercancel",release);
+cord.addEventListener("click",e=>{if(!pulled)setLight(!lightOn);pulled=false;swingCord()});
+cord.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();setLight(!lightOn);swingCord()}});
+function swingCord(){if(anim)gsap.fromTo(cord,{rotation:6},{rotation:0,duration:1.8,ease:"elastic.out(1,.25)",transformOrigin:"50% 0"})}
+const hero=$(".hero");
+if(fine)hero.addEventListener("pointermove",e=>{const r=hero.getBoundingClientRect();hero.querySelector(".hero-weave").style.setProperty("--mx",(e.clientX-r.left)+"px");hero.querySelector(".hero-weave").style.setProperty("--my",(e.clientY-r.top)+"px")});
+
+/* Split helper */
+function splitWords(el){const walk=n=>{[...n.childNodes].forEach(c=>{if(c.nodeType===3){const f=document.createDocumentFragment();c.textContent.split(/(\s+)/).forEach(t=>{if(!t)return;if(/^\s+$/.test(t)){f.appendChild(document.createTextNode(t));return}const w=document.createElement("span");w.className="w";const i=document.createElement("span");i.className="wi";i.textContent=t;w.appendChild(i);f.appendChild(w)});c.replaceWith(f)}else if(c.nodeType===1)walk(c)})};walk(el);el.classList.add("split");return $$(".wi",el)}
+
+/* Intro: reveal immediately, without blocking interaction. */
+if(anim){const heroWords=splitWords($("#heroTitle"));gsap.from(heroWords,{yPercent:105,rotate:2,duration:.85,stagger:.035,ease:"power3.out"});gsap.from(".hero-bot",{opacity:0,y:14,duration:.7,delay:.15});}
+
+/* ═══════ Marquee with scroll velocity ═══════ */
+if(anim){const mq=$("#mq");let x=0,v=0,dir=1;const w=()=>mq.scrollWidth/2;
+ gsap.ticker.add(()=>{x-= (0.6+Math.abs(v)*0.04)*dir;if(-x>=w())x+=w();if(x>0)x-=w();gsap.set(mq,{x,skewX:Math.max(-8,Math.min(8,v*-.06))});v*=.9});
+ if(lenis)lenis.on("scroll",e=>{v=e.velocity||0;dir=e.direction<0?-1:1});else addEventListener("scroll",()=>{v=6},{passive:true});
+}
+
+/* ═══════ Manifesto word light-up ═══════ */
+if(anim){const ws=splitWords($("#manText"));ws.forEach(w=>w.parentElement.classList.add("mw"));gsap.set(ws,{opacity:.14});
+ gsap.to(ws,{opacity:1,stagger:.06,ease:"none",scrollTrigger:{trigger:"#manText",start:"top 80%",end:"bottom 45%",scrub:true}});
+ $$(".fact").forEach((f,i)=>gsap.from(f,{y:40,opacity:0,duration:1.2,delay:i*.08,ease:"expo.out",scrollTrigger:{trigger:f,start:"top 92%"}}));
+}
+
+/* ═══════ Collection ═══════ */
+const track_=$("#hTrack");
+const panelHTML=P.map((p,i)=>`
+ <article class="panel" data-pid="${p.id}">
+   <div class="plinth" data-open="${p.id}" data-c="Ver">
+     <span class="num">N.º ${String(i+1).padStart(2,"0")}</span>
+     <span class="big" aria-hidden="true">${String(i+1).padStart(2,"0")}</span>
+     <img class="obj ${p.type==="pendant"?"pendant":""}" src="${p.variants[0].cut}" alt="${esc(p.name)}, fotografía original sin fondo" loading="lazy" decoding="async">
+   </div>
+   <div class="panel-txt">
+     <div><span class="eyebrow cat">${p.catLabel}</span><h3>${esc(sn(p))}</h3><p>${esc(p.desc)}</p><p class="product-price">${priceText(p)}</p>
+       ${hasVar(p)?`<div class="swatches">${p.variants.map((v,k)=>`<button class="sw" data-sw="${p.id}" data-v="${k}" aria-pressed="${k===0}">${v.name}</button>`).join("")}</div>`:""}
+       <div class="ctas"><button class="btn btn-solid" data-open="${p.id}"><span class="l">Explorar pieza</span><span class="ar">→</span></button><button class="btn btn-ghost" data-try="${p.id}"><span class="l">Ver en mi casa</span></button></div>
+     </div>
+     <button class="ctx" data-open="${p.id}" data-c="Ver"><img src="${p.photos[p.photos.length>1?1:0]}" alt="" loading="lazy"><span>En contexto<b>${p.photos.length>1?"Instalada en un ambiente":"Fotografía de la pieza encendida"}</b></span></button>
+   </div>
+ </article>`).join("")+`
+ <div class="end-panel"><span class="eyebrow" style="color:var(--bronze-hi)">Siguiente paso</span><h3>¿Cómo quedaría <em>en tu casa?</em></h3><div style="display:flex;flex-direction:column;gap:20px"><p class="lede">Subí una foto de tu espacio y probá cualquiera de estas piezas.</p><div class="ctas"><a class="btn btn-solid" href="#studio" data-scroll><span class="l">Abrir Estudio visual</span><span class="ar">→</span></a></div></div></div>`;
+track_.insertAdjacentHTML("beforeend",panelHTML);rollify(track_);
+document.addEventListener("click",e=>{const s=e.target.closest("[data-sw]");if(!s)return;e.stopPropagation();const p=byId(s.dataset.sw),v=+s.dataset.v;const panel=s.closest(".panel");$$("[data-sw]",panel).forEach(b=>b.setAttribute("aria-pressed",b===s));const img=$(".obj",panel);
+ const swap=()=>{img.src=p.variants[v].cut};if(anim){gsap.to(img,{opacity:0,y:10,duration:.3,onComplete:()=>{swap();img.onload=()=>gsap.to(img,{opacity:1,y:0,duration:.6,ease:"expo.out"});if(img.complete)gsap.to(img,{opacity:1,y:0,duration:.6})}})}else swap();panel.dataset.v=v});
+
+if(anim){ScrollTrigger.matchMedia({
+ "(min-width:901px)":()=>{
+   track_.classList.add("pinned");
+   const dist=()=>track_.scrollWidth-innerWidth;
+   const tw=gsap.to(track_,{x:()=>-dist(),ease:"none",scrollTrigger:{trigger:"#collPin",start:"top top",end:()=>"+="+dist(),pin:true,scrub:1,invalidateOnRefresh:true,onUpdate:s=>{gsap.set("#collRail",{scaleX:s.progress});const n=Math.min(7,Math.max(1,Math.round(s.progress*7.4)));$("#collNow").textContent=String(n).padStart(2,"0")}}});
+   $$(".panel").forEach(pn=>{
+     gsap.fromTo($(".obj",pn),{x:0,xPercent:-44},{x:0,xPercent:-56,ease:"none",scrollTrigger:{trigger:pn,containerAnimation:tw,start:"left right",end:"right left",scrub:true}});
+     gsap.fromTo($(".big",pn),{xPercent:30},{xPercent:-30,ease:"none",scrollTrigger:{trigger:pn,containerAnimation:tw,start:"left right",end:"right left",scrub:true}});
+     gsap.from($(".panel-txt h3",pn),{yPercent:40,opacity:0,ease:"none",scrollTrigger:{trigger:pn,containerAnimation:tw,start:"left 85%",end:"left 45%",scrub:true}});
+   });
+   return()=>{track_.classList.remove("pinned");gsap.set(track_,{clearProps:"transform"})};
+ },
+ "(max-width:900px)":()=>{
+   const ps=$$(".panel");ps.forEach((pn,i)=>{const nx=ps[i+1]||$(".end-panel");gsap.to(pn,{scale:.9,opacity:.35,ease:"none",scrollTrigger:{trigger:nx,start:"top bottom",end:"top 64px",scrub:true}})});
+ }
+});}
+
+/* ═══════ Index ═══════ */
+$("#idxList").innerHTML=P.map((p,i)=>`<li class="idx-row" data-open="${p.id}" data-pid="${p.id}" tabindex="0" role="button" data-c="Abrir"><span class="n">${String(i+1).padStart(2,"0")}</span><span class="nm">${esc(sn(p))}</span><span class="c">${p.catLabel}</span><span class="ar" aria-hidden="true">→</span><img class="th" src="${p.variants[0].cut}" alt="" loading="lazy"></li>`).join("");
+if(fine&&anim){const fl=$("#idxFloat"),im=$("#idxImg");const fx=gsap.quickTo(fl,"left",{duration:.7,ease:"power3"}),fy=gsap.quickTo(fl,"top",{duration:.7,ease:"power3"});
+ $("#idxList").addEventListener("pointermove",e=>{fx(e.clientX);fy(e.clientY)});
+ $$(".idx-row").forEach(r=>{r.addEventListener("pointerenter",()=>{im.src=byId(r.dataset.pid).variants[0].cut;fl.classList.add("on")});});
+ $("#idxList").addEventListener("pointerleave",()=>fl.classList.remove("on"));
+ $$(".idx-row").forEach((r,i)=>gsap.from(r,{y:30,opacity:0,duration:1,ease:"expo.out",scrollTrigger:{trigger:r,start:"top 95%"}}));
+}
+
+/* ═══════ Art of light ═══════ */
+if(anim){ScrollTrigger.matchMedia({
+ "(min-width:901px)":()=>{
+   const ch=$$(".chap"),rail=$$(".art-rail span");
+   gsap.set(ch.slice(1),{autoAlpha:0});
+   const tl=gsap.timeline({scrollTrigger:{trigger:"#artStage",start:"top top",end:"+=260%",pin:true,scrub:1}});
+   tl.fromTo($(".chap-frame",ch[0]),{clipPath:"inset(18% 14% 18% 14%)"},{clipPath:"inset(0% 0% 0% 0%)",duration:1})
+     .fromTo($(".chap-frame img",ch[0]),{scale:1.3},{scale:1,duration:1},0)
+     .fromTo(rail[0].querySelector("b"),{scaleX:0},{scaleX:1,duration:1},0);
+   const step=(a,b)=>{
+     tl.addLabel("s"+b)
+       .to($(".chap-txt",ch[a]),{y:-50,autoAlpha:0,duration:.5},"s"+b)
+       .set(ch[b],{autoAlpha:1},"s"+b)
+       .fromTo($(".chap-frame",ch[b]),{clipPath:"inset(100% 0% 0% 0%)"},{clipPath:"inset(0% 0% 0% 0%)",duration:.9,ease:"power2.inOut"},"s"+b)
+       .to($(".chap-frame img, .chap-frame .mosaic",ch[a]),{yPercent:-12,scale:1.05,duration:.9,ease:"power2.inOut"},"s"+b)
+       .fromTo($(".chap-txt",ch[b]).children,{y:60,autoAlpha:0},{y:0,autoAlpha:1,stagger:.08,duration:.6},"s"+b+"+=.35")
+       .add(()=>rail.forEach((r,i)=>r.classList.toggle("on",i<=b)),"s"+b+"+=.4")
+       .set(ch[a],{autoAlpha:0})
+       .fromTo(rail[b].querySelector("b"),{scaleX:0},{scaleX:1,duration:1},"s"+b+"+=.5");
+     if(b===1) tl.fromTo($$(".mosaic img",ch[1]),{scale:1.35},{scale:1,stagger:.08,duration:1.1},"s1+=.2");
+     tl.to({},{duration:.4});};
+   step(0,1);step(1,2);
+   return()=>{gsap.set(ch,{clearProps:"all"})};
+ },
+ "(max-width:900px)":()=>{
+   $$(".chap-frame").forEach(f=>gsap.fromTo(f,{clipPath:"inset(10% 8% 10% 8%)"},{clipPath:"inset(0% 0% 0% 0%)",ease:"none",scrollTrigger:{trigger:f,start:"top 92%",end:"top 30%",scrub:true}}));
+ }
+});}
+
+/* ═══════ Light mood (relight) ═══════ */
+function k2rgb(k){k/=100;let r,g,b;if(k<=66){r=255;g=99.47*Math.log(k)-161.12;b=k<=19?0:138.52*Math.log(k-10)-305.04}else{r=329.7*Math.pow(k-60,-.1332);g=288.12*Math.pow(k-60,-.0755);b=255}const c=v=>Math.max(0,Math.min(255,Math.round(v)));return[c(r),c(g),c(b)]}
+const moodTxt=k=>k<3300?"Luz cálida: acerca los tonos de la madera y el tejido e invita a bajar el ritmo. Ideal para living, comedor y dormitorio.":k<4800?"Luz neutra: muestra los colores con más fidelidad. Funciona bien en cocinas, escritorios y espacios de trabajo.":"Luz fría: se percibe más enérgica y técnica. Sirve para tareas, aunque en un ambiente de descanso puede sentirse distante.";
+function applyMood(){const k=+$("#kIn").value,i=+$("#iIn").value/100;const [r,g,b]=k2rgb(k);const cool=(k-2700)/3800;
+ const room=.12+i*.9, lamp=.55+i*.6;
+ $("#moodBase").style.filter=`brightness(${room.toFixed(2)}) saturate(${(1-cool*.55).toFixed(2)})`;
+ $("#moodLit").style.filter=`brightness(${lamp.toFixed(2)}) saturate(${(1-cool*.5).toFixed(2)})`;
+ $("#moodStage").style.setProperty("--r1",(4+i*6)+"%");$("#moodStage").style.setProperty("--r2",(18+i*34)+"%");
+ $("#moodTint").style.background=`rgba(${r},${g},${b},${(.15+cool*.55).toFixed(2)})`;
+ $("#moodGlow").style.background=`radial-gradient(circle, rgba(${r},${g},${b},${(.12+i*.28).toFixed(2)}) 0%, rgba(${r},${g},${b},0) 45%)`;
+ $("#moodK").innerHTML=`${k} K<small>Intensidad ${Math.round(i*100)}%</small>`;
+ $("#kV").textContent=`${k} K · ${k<3300?"cálida":k<4800?"neutra":"fría"}`;$("#iV").textContent=Math.round(i*100)+"%";
+ $("#moodCopy").textContent=moodTxt(k);
+ $$(".presets .chip").forEach(c=>c.setAttribute("aria-pressed",+c.dataset.k===k&&+c.dataset.i===Math.round(i*100)));}
+$("#kIn").oninput=applyMood;$("#iIn").oninput=applyMood;
+$$(".presets .chip").forEach(c=>c.onclick=()=>{const k0=+$("#kIn").value,i0=+$("#iIn").value;if(anim){const o={k:k0,i:i0};gsap.to(o,{k:+c.dataset.k,i:+c.dataset.i,duration:1.2,ease:"power2.inOut",onUpdate:()=>{$("#kIn").value=Math.round(o.k/50)*50;$("#iIn").value=Math.round(o.i);applyMood()}})}else{$("#kIn").value=c.dataset.k;$("#iIn").value=c.dataset.i;applyMood()}track("light_mood",{k:c.dataset.k})});
+applyMood();
+if(anim)gsap.fromTo("#moodStage",{clipPath:"inset(14% 10% 14% 10%)"},{clipPath:"inset(0% 0% 0% 0%)",ease:"none",scrollTrigger:{trigger:"#moodStage",start:"top 90%",end:"top 30%",scrub:true}});
+
+/* ═══════ Generic reveals ═══════ */
+if(anim){
+ $$(".idx-head h2,.mood-panel h2,.cc-intro h2,.pros h2,.foot-cta h2,.intro-panel h2").forEach(h=>{const ws=splitWords(h);gsap.from(ws,{yPercent:110,rotate:3,duration:1.4,stagger:.06,ease:"expo.out",scrollTrigger:{trigger:h,start:"top 88%"}})});
+ const stw=splitWords($("#stTitle"));gsap.from(stw,{yPercent:110,rotate:3,duration:1.4,stagger:.07,ease:"expo.out",scrollTrigger:{trigger:"#stTitle",start:"top 85%"}});
+ gsap.from("#app",{y:80,opacity:0,duration:1.6,ease:"expo.out",scrollTrigger:{trigger:"#app",start:"top 90%"}});
+ gsap.fromTo("#prosImg",{yPercent:-10},{yPercent:0,ease:"none",scrollTrigger:{trigger:".pros",start:"top bottom",end:"bottom top",scrub:true}});
+ gsap.from(".pros .card",{y:100,opacity:0,duration:1.5,ease:"expo.out",scrollTrigger:{trigger:".pros .card",start:"top 90%"}});
+ gsap.fromTo("#footWord img",{clipPath:"inset(0 100% 0 0)"},{clipPath:"inset(0 0% 0 0)",duration:2,ease:"expo.inOut",scrollTrigger:{trigger:"#footWord",start:"top 92%"}});
+ gsap.from(".chat",{y:60,opacity:0,duration:1.4,ease:"expo.out",scrollTrigger:{trigger:".chat",start:"top 90%"}});
+ addEventListener("load",()=>ScrollTrigger.refresh());
+}
+
+/* ═══════ Product overlay with shared-element transition ═══════ */
+const pdOv=$("#pdOv");let cur_={id:null,v:0};
+function mediaList(p,v){const list=[{src:p.variants[v].cut,obj:true}];[p.variants[v].photo,...p.photos].forEach(s=>{if(!list.some(x=>x.src===s))list.push({src:s,obj:false})});return list}
+function showMain(item){const m=$("#pdMain");const img=document.createElement("img");img.src=item.src;img.alt=byId(cur_.id).name+(item.obj?", fotografía original sin fondo":", fotografía original");if(item.obj)img.className="obj";else img.onclick=()=>openLightbox(item.src,byId(cur_.id).name);
+ const old=$("img",m);m.appendChild(img);if(anim&&old){gsap.fromTo(img,{opacity:0,scale:1.04},{opacity:1,scale:1,duration:.8,ease:"expo.out",onComplete:()=>old.remove()})}else if(old)old.remove()}
+function openProduct(id,v=0,srcEl){const p=byId(id);if(!p)return;const first=!pdOv.classList.contains("open");cur_={id,v};
+ $("#pdCat").textContent=p.catLabel;$("#pdName").textContent=p.name;$("#pdDesc").textContent=p.desc;
+ const list=mediaList(p,v);$("#pdMain").innerHTML="";showMain(list[0]);
+ $("#pdThumbs").innerHTML=list.map((it,i)=>`<button aria-pressed="${i===0}" aria-label="Imagen ${i+1}"><img class="${it.obj?"obj":""}" src="${it.src}" alt=""></button>`).join("");
+ $$("#pdThumbs button").forEach((b,i)=>b.onclick=()=>{$$("#pdThumbs button").forEach(x=>x.setAttribute("aria-pressed",x===b));showMain(list[i])});
+ $("#pdVarWrap").hidden=!hasVar(p);
+ $("#pdVars").innerHTML=p.variants.map((x,i)=>`<button class="sw" aria-pressed="${i===v}" data-pv="${i}">${x.name}</button>`).join("");
+ $$("[data-pv]").forEach(c=>c.onclick=()=>openProduct(id,+c.dataset.pv));
+ const colors=hasVar(p)?p.variants.map(x=>x.name).join(", ")+" y otros a pedido":(p.variants[0].name!=="Como en la foto"?p.variants[0].name+" y otros a pedido":"A pedido");
+ $("#pdSpec").innerHTML=`<dt>Precio</dt><dd>${priceText(p)} · <a href="${waLink(`Hola Nelumbo, quiero la lista de precios de ${p.name}.`)}" target="_top" rel="noopener">pedir lista</a></dd><dt>Medidas</dt><dd>A elección · <span class="tbd">medidas estándar a confirmar</span></dd><dt>Materiales</dt><dd><span class="tbd">a confirmar por Nelumbo</span></dd><dt>Colores</dt><dd>${colors}</dd><dt>Fabricación</dt><dd>${esc(leadTime(p))}</dd><dt>Envío</dt><dd>A coordinar según tu localidad.</dd>`;
+ $("#pdShop").hidden=!canBuy(p);$("#pdShop").href=shopUrl(p)||STORE;
+ $("#pdWa").href=waLink(`Hola Nelumbo, me interesa ${p.name}${hasVar(p)?" ("+p.variants[v].name+")":""}. ¿Me pasan precio y medidas disponibles?`);
+ const rel=P.filter(x=>x.id!==id).sort((a,b)=>(b.cat===p.cat)-(a.cat===p.cat)).slice(0,3);
+ $("#pdRel").innerHTML=rel.map(r=>`<button data-open="${r.id}"><div class="rph"><img src="${r.variants[0].cut}" alt="" loading="lazy"></div><span>${esc(sn(r))}</span></button>`).join("");
+ $("#pdInfo").scrollTop=0;
+ if(first){pdOv.classList.add("open");pdOv.setAttribute("aria-hidden","false");lock(true);
+   if(anim){const kids=[...$("#pdInfo").children];gsap.fromTo(kids,{y:40,opacity:0},{y:0,opacity:1,stagger:.06,duration:1.1,delay:.45,ease:"expo.out"});
+     if(srcEl&&srcEl.getBoundingClientRect().width>2){const r=srcEl.getBoundingClientRect();const f=document.createElement("img");f.src=srcEl.currentSrc||srcEl.src;f.className="fly";f.style.objectFit=srcEl.classList.contains("obj")?"contain":"cover";Object.assign(f.style,{left:r.left+"px",top:r.top+"px",width:r.width+"px",height:r.height+"px"});document.body.appendChild(f);
+       requestAnimationFrame(()=>{const t=$("#pdMain").getBoundingClientRect();gsap.set("#pdMain",{opacity:0});gsap.to(f,{left:t.left+t.width*.1,top:t.top+t.height*.08,width:t.width*.8,height:t.height*.86,duration:1,ease:"expo.inOut",onComplete:()=>{gsap.to("#pdMain",{opacity:1,duration:.3});gsap.to(f,{opacity:0,duration:.3,onComplete:()=>f.remove()})}})});}
+   }
+   setTimeout(()=>$("#pdClose").focus({preventScroll:true}),500);
+ }
+ track("view_item",{item_id:id});
+}
+function closeProduct(){if(!pdOv.classList.contains("open"))return;pdOv.classList.remove("open");pdOv.setAttribute("aria-hidden","true");lock(false)}
+$("#pdClose").onclick=closeProduct;
+document.addEventListener("click",e=>{if(e.target.closest("[data-sw],[data-pv]"))return;const t=e.target.closest("[data-try]");if(t){e.preventDefault();const pid=t.dataset.try;const panel=t.closest(".panel");selectLamp(pid,panel?+(panel.dataset.v||0):0);closeProduct();setTimeout(()=>goTo("#studio"),pdOv.classList.contains("open")?400:0);track("try_at_home",{item_id:pid});return}
+ const o=e.target.closest("[data-open]");if(o){e.preventDefault();const panel=o.closest(".panel");const v=panel?+(panel.dataset.v||0):0;const src=panel?$(".obj",panel):(o.querySelector("img")||null);openProduct(o.dataset.open,v,src)}});
+document.addEventListener("keydown",e=>{if((e.key==="Enter"||e.key===" ")&&e.target.matches(".idx-row")){e.preventDefault();openProduct(e.target.dataset.open)}if(e.key==="Escape")closeAll()});
+$("#pdAdd").onclick=()=>addToCart(cur_.id,cur_.v,$("#pdMain img"));
+$("#pdTry").onclick=()=>{closeProduct();selectLamp(cur_.id,cur_.v);setTimeout(()=>goTo("#studio"),400)};
+
+/* ═══════ Cart ═══════ */
+let cart=store.get("nelumbo-cart",[]);const cartOv=$("#cartOv");
+function saveCart(){store.set("nelumbo-cart",cart);renderCart()}
+function addToCart(id,v=0,fromImg){const ex=cart.find(c=>c.id===id&&c.v===v);if(ex)ex.qty=Math.min(99,ex.qty+1);else cart.push({id,v,qty:1});saveCart();toast(`${sn(byId(id))} agregada a tu selección`);track("add_to_cart",{item_id:id});
+ if(fromImg&&anim){const r=fromImg.getBoundingClientRect(),t=$("#cartCount").getBoundingClientRect();const f=document.createElement("img");f.src=byId(id).variants[v].cut;f.className="fly";f.style.objectFit="contain";Object.assign(f.style,{left:r.left+r.width/2-50+"px",top:r.top+r.height/2-60+"px",width:"100px",height:"120px"});document.body.appendChild(f);
+  gsap.to(f,{left:t.left-10,top:t.top-14,width:30,height:36,opacity:.3,duration:1,ease:"power3.inOut",onComplete:()=>{f.remove();gsap.fromTo("#cartCount",{scale:1.6},{scale:1,duration:.7,ease:"back.out(3)"})}})}}
+function renderCart(){cart=cart.filter(c=>byId(c.id)&&byId(c.id).variants[c.v]&&Number.isInteger(c.qty)&&c.qty>0);$("#orderSubmit").disabled=!cart.length;$("#cartTotal").textContent=cart.some(c=>byId(c.id).price==null)?"Total a confirmar":money(cart.reduce((n,c)=>n+byId(c.id).price*c.qty,0));$("#cartCount").textContent=cart.reduce((a,c)=>a+c.qty,0);const L=$("#cartList");
+ if(!cart.length){L.innerHTML=`<p class="cart-empty">Todavía no elegiste piezas. Empezá por la colección.</p>`;$("#cartWa").href=waLink("Hola Nelumbo, quiero hacer una consulta.");return}
+ L.innerHTML=cart.map((c,i)=>{const p=byId(c.id),va=p.variants[c.v];return `<div class="ci"><div class="rph"><img src="${va.cut}" alt=""></div><div><b>${esc(p.name)}</b><small>${hasVar(p)?va.name+" · ":""}${priceText(p)}</small></div><div class="qty"><button aria-label="Quitar uno" data-q="${i}" data-d="-1">−</button><span>${c.qty}</span><button aria-label="Sumar uno" data-q="${i}" data-d="1">+</button></div></div>`}).join("");
+ $$("[data-q]",L).forEach(b=>b.onclick=()=>{const c=cart[+b.dataset.q];c.qty=Math.min(99,c.qty+(+b.dataset.d));if(c.qty<1)cart.splice(+b.dataset.q,1);saveCart()});
+ $("#cartWa").href=waLink(`Hola Nelumbo, quiero cotizar esta selección:\n${cart.map(c=>{const p=byId(c.id);return `• ${c.qty} × ${p.name}${hasVar(p)?" ("+p.variants[c.v].name+")":""}`}).join("\n")}\n¿Me pasan precios y medidas disponibles?`)}
+renderCart();
+$("#orderForm").onsubmit=async e=>{e.preventDefault();const btn=$("#orderSubmit"),out=$("#orderStatus");btn.disabled=true;out.textContent="Guardando pedido…";try{const values=Object.fromEntries(new FormData(e.target));const key=sessionStorage.getItem("nelumbo-order-key")||crypto.randomUUID();sessionStorage.setItem("nelumbo-order-key",key);const r=await fetch("/api/orders",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({...values,items:cart,key})});const d=await r.json();if(!r.ok)throw Error(d.error||"No se pudo guardar");out.textContent="Pedido "+d.id.slice(0,8)+" registrado. Pendiente de confirmación. Continuá por WhatsApp.";$("#cartWa").href=waLink(`Hola Nelumbo, registré el pedido ${d.id}.\nNombre: ${values.name}\nContacto: ${values.contact}\nEntrega: ${values.delivery}\n${cart.map(c=>{const p=byId(c.id);return `${c.qty} × ${p.name} · ${p.variants[c.v].name} · ${priceText(p)} por unidad`;}).join("\n")}\nQuiero confirmar disponibilidad, envío y pago.`);$("#cartWa").textContent="Continuar pedido por WhatsApp";sessionStorage.removeItem("nelumbo-order-key");cart=[];store.set("nelumbo-cart",[]);$("#cartCount").textContent="0";$("#cartList").innerHTML="<p class=\"cart-empty\">Tu pedido quedó registrado.</p>";}catch(err){out.textContent=err.message;btn.disabled=false;}};
+function openOv(ov){ov.classList.add("open");ov.setAttribute("aria-hidden","false");lock(true)}
+function closeOv(ov){if(!ov.classList.contains("open"))return;ov.classList.remove("open");ov.setAttribute("aria-hidden","true");if(!$$(".ov.open").length)lock(false)}
+$("#cartBtn").onclick=()=>{openOv(cartOv);track("view_cart")};
+$$(".ov [data-close]").forEach(b=>b.addEventListener("click",()=>closeOv(b.closest(".ov"))));
+$("#cartWa").addEventListener("click",()=>track("begin_checkout_whatsapp"));
+const lbOv=$("#lbOv");
+function openLightbox(src,c){const im=$("#lbImg");im.src=src;im.className="fit";im.style.width="";$("#lbZoom").setAttribute("aria-pressed","false");$("#lbCap").textContent=c||"Ampliar";openOv(lbOv)}
+$("#lbZoom").onclick=()=>{const im=$("#lbImg"),z=im.classList.contains("fit");im.classList.toggle("fit",!z);im.style.width=z?(im.naturalWidth)+"px":"";$("#lbZoom").setAttribute("aria-pressed",z)};
+function closeAll(){$$(".ov.open").forEach(closeOv);closeProduct();closeMenu()}
+$$("[data-copy]").forEach(b=>b.onclick=()=>copyText(b.dataset.copy));
+
+/* ═══════ ESTUDIO VISUAL ═══════ */
+const cv=$("#cv"),ctx=cv.getContext("2d");
+const S={room:null,isSample:true,lamp:P[0]?.id,v:0,x:.42,y:.37,h:.22,rot:0,flip:false,glow:true,cable:10,exp:100,autoExp:1,imgs:{},file:null};
+const MAXW=1600;
+function loadImg(src){return new Promise((res,rej)=>{if(S.imgs[src])return res(S.imgs[src]);const im=new Image();im.decoding="async";im.onload=()=>{S.imgs[src]=im;res(im)};im.onerror=rej;im.src=src})}
+const curP=()=>byId(S.lamp),curV=()=>curP().variants[S.v];
+function setProg(n){$$("#prog div").forEach((d,i)=>d.classList.toggle("on",i<n))}
+const progN=()=>$$("#prog div.on").length;
+const lampOpts=[];P.forEach(p=>p.variants.forEach((v,vi)=>lampOpts.push({p,v,vi})));
+$("#lamps").innerHTML=lampOpts.map(o=>`<button class="lamp-opt" data-l="${o.p.id}" data-v="${o.vi}" aria-pressed="false"><div class="ph"><img src="${o.v.cut}" alt="" loading="lazy"></div><b>${esc(sn(o.p))}</b><span>${hasVar(o.p)?o.v.name:o.p.type==="table"?"Velador":"Colgante"}</span></button>`).join("");
+$$(".lamp-opt").forEach(b=>b.onclick=()=>{selectLamp(b.dataset.l,+b.dataset.v);setProg(Math.max(2,progN()))});
+$$(".tabs button").forEach(b=>b.onclick=()=>{$$(".tabs button").forEach(x=>x.setAttribute("aria-selected",x===b));$$(".pane").forEach(p=>p.hidden=p.dataset.pane!==b.dataset.tab);if(anim)gsap.from(`.pane[data-pane="${b.dataset.tab}"] > *`,{y:14,opacity:0,stagger:.04,duration:.6,ease:"expo.out"})});
+function roomStats(){const c=document.createElement("canvas");c.width=c.height=32;const x=c.getContext("2d");x.drawImage(S.room,0,0,32,32);let d;try{d=x.getImageData(0,0,32,32).data}catch(e){S.autoExp=1;return}let L=0;for(let i=0;i<d.length;i+=4)L+=(.2126*d[i]+.7152*d[i+1]+.0722*d[i+2])/255;L/=d.length/4;S.autoExp=Math.min(1.12,Math.max(.72,.7+L*.6))}
+function defaultPlacement(){const p=curP();if(S.isSample){if(p.type==="table"){S.x=.42;S.y=.37;S.h=.22}else{S.x=.62;S.y=0;S.h=p.h*.95}}else{if(p.type==="table"){S.x=.72;S.y=.62;S.h=p.h}else{S.x=.5;S.y=.06;S.h=p.h}}S.cable=p.addCable?(p.cable||10):0;S.rot=0;S.flip=false;sync()}
+async function selectLamp(id,v=0){const prev=curP().type;S.lamp=id;S.v=v;
+ $$(".lamp-opt").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===id&&+b.dataset.v===v));
+ $("#selName").textContent=`${curP().name}${hasVar(curP())?" · "+curV().name:""}`;
+ await loadImg(curV().cut);
+ if(curP().type!==prev)defaultPlacement();else{S.cable=curP().addCable?(curP().cable||10):0;sync()}
+ $("#cableRow").hidden=!curP().addCable;draw();hideResult();
+ if(anim)gsap.fromTo(cv,{filter:"brightness(1.25)"},{filter:"brightness(1)",duration:.8,clearProps:"filter"})}
+function sync(){$("#cScale").value=Math.round(S.h*100);$("#cScaleV").textContent=Math.round(S.h*100)+"%";$("#cY").value=Math.round(S.y*100);$("#cYV").textContent=Math.round(S.y*100)+"%";$("#cX").value=Math.round(S.x*100);$("#cXV").textContent=Math.round(S.x*100)+"%";$("#cRot").value=S.rot;$("#cRotV").textContent=S.rot+"°";$("#cCable").value=S.cable;$("#cCableV").textContent=S.cable+"%";$("#cExp").value=S.exp;$("#cExpV").textContent=S.exp===100?"auto":S.exp+"%";$("#tFlip").setAttribute("aria-pressed",S.flip);$("#tGlow").setAttribute("aria-pressed",S.glow);$("#tGlow").textContent=S.glow?"Encendida":"Apagada"}
+function lampBox(W,H){const im=S.imgs[curV().cut];if(!im)return null;const p=curP();const h=S.h*H,w=h*im.width/im.height,ax=S.x*W,ay=S.y*H,cab=p.addCable?S.cable/100*H:0;const top=p.type==="table"?ay-h:ay+cab;return{x:ax-w/2,y:top,w,h,ax,ay,cab}}
+function draw(t=ctx,o={}){if(!S.room)return;const W=t.canvas.width,H=t.canvas.height;t.clearRect(0,0,W,H);t.drawImage(S.room,0,0,W,H);if(o.roomOnly)return;
+ const b=lampBox(W,H);if(!b)return;const p=curP(),im=S.imgs[curV().cut];t.save();
+ if(p.type==="table"){const g=t.createRadialGradient(b.ax,b.ay,0,b.ax,b.ay,b.w*.75);g.addColorStop(0,"rgba(20,14,8,.38)");g.addColorStop(1,"rgba(20,14,8,0)");t.fillStyle=g;t.beginPath();t.ellipse(b.ax,b.ay,b.w*.75,b.w*.16,0,0,Math.PI*2);t.fill()}
+ const gx=b.x+b.w*p.bulb[0],gy=b.y+b.h*p.bulb[1];
+ if(S.glow){t.globalCompositeOperation="screen";const r=Math.max(b.w,b.h)*1.6;const g=t.createRadialGradient(gx,gy,0,gx,gy,r);g.addColorStop(0,"rgba(255,196,120,.42)");g.addColorStop(.35,"rgba(255,170,90,.16)");g.addColorStop(1,"rgba(255,160,80,0)");t.fillStyle=g;t.fillRect(gx-r,gy-r,r*2,r*2);t.globalCompositeOperation="source-over"}
+ if(b.cab>0){t.strokeStyle="rgba(30,26,22,.9)";t.lineWidth=Math.max(1.2,W/700);t.beginPath();t.moveTo(b.ax,b.ay-2);t.lineTo(b.ax,b.y+b.h*.06);t.stroke()}
+ t.translate(b.ax,p.type==="table"?b.ay:b.y);t.rotate(S.rot*Math.PI/180);if(S.flip)t.scale(-1,1);
+ const e=S.exp===100?S.autoExp:S.exp/100;try{t.filter=`brightness(${e.toFixed(3)})`}catch(_){}
+ t.drawImage(im,-b.w/2,p.type==="table"?-b.h:0,b.w,b.h);t.filter="none";t.restore()}
+function setRoom(img,name,isSample){const k=Math.min(1,MAXW/Math.max(img.width,img.height));cv.width=Math.round(img.width*k);cv.height=Math.round(img.height*k);S.room=img;S.isSample=isSample;roomStats();$("#roomName").textContent=isSample?"Ambiente de ejemplo":"Tu espacio";defaultPlacement();draw();hideResult();
+ if(anim)gsap.fromTo(cv,{opacity:0,scale:1.05,filter:"blur(10px)"},{opacity:1,scale:1,filter:"blur(0px)",duration:1.2,ease:"expo.out",clearProps:"filter,transform"})}
+async function useSample(){const im=await loadImg("assets/img/ambiente-ejemplo.jpg");S.file=null;setRoom(im,"Ambiente de ejemplo",true);setProg(1)}
+$("#useSample").onclick=useSample;
+let consented=false;try{consented=sessionStorage.getItem("nelumbo-consent")==="1"}catch(e){}
+$("#upBtn").onclick=()=>{if(consented)$("#roomFile").click();else openOv($("#consentOv"))};
+$("#csOk").onclick=()=>{consented=true;try{sessionStorage.setItem("nelumbo-consent","1")}catch(e){}closeOv($("#consentOv"));$("#roomFile").click()};
+function handleFile(file){if(!file)return;if(!consented){openOv($("#consentOv"));return}
+ if(!/^image\//.test(file.type)&&!/\.(heic|heif)$/i.test(file.name)){toast("Ese archivo no es una imagen. Probá con JPG o PNG");return}
+ if(file.size>20*1024*1024){toast("La foto supera 20 MB. Probá con una más liviana");return}
+ const url=URL.createObjectURL(file),im=new Image();im.onload=()=>{S.file=file;setRoom(im,file.name,false);setProg(2);track("studio_upload")};im.onerror=()=>toast("No pudimos abrir esa foto. Si es HEIC, exportala como JPG");im.src=url}
+$("#roomFile").onchange=e=>{handleFile(e.target.files[0]);e.target.value=""};
+const stage=$("#stage");
+["dragenter","dragover"].forEach(ev=>stage.addEventListener(ev,e=>{e.preventDefault();stage.classList.add("drag")}));
+["dragleave","drop"].forEach(ev=>stage.addEventListener(ev,e=>{e.preventDefault();stage.classList.remove("drag")}));
+stage.addEventListener("drop",e=>{const f=e.dataTransfer.files[0];if(!f)return;if(!consented){consented=true;try{sessionStorage.setItem("nelumbo-consent","1")}catch(_){}toast("Al soltar tu foto aceptás usarla solo para esta visualización")}handleFile(f)});
+const ptrs=new Map();let drag=null,pinch=null;
+const toN=e=>{const r=cv.getBoundingClientRect();return{x:(e.clientX-r.left)/r.width,y:(e.clientY-r.top)/r.height}};
+cv.addEventListener("pointerdown",e=>{if(!S.room)return;cv.setPointerCapture(e.pointerId);ptrs.set(e.pointerId,toN(e));$("#stageHint").style.opacity=0;
+ if(ptrs.size===2){const[a,b]=[...ptrs.values()];pinch={d:Math.hypot(a.x-b.x,a.y-b.y),h:S.h};drag=null;return}
+ const n=toN(e),bx=lampBox(1,1);const hit=bx&&n.x>bx.x-.03&&n.x<bx.x+bx.w+.03&&n.y>bx.y-.03&&n.y<bx.y+bx.h+.03;
+ if(!hit){S.x=Math.min(.98,Math.max(.02,n.x));S.y=curP().type==="table"?Math.min(.99,Math.max(.05,n.y)):Math.min(.9,Math.max(0,n.y-(bx?bx.h*.1:0)));sync();draw()}
+ drag={sx:n.x,sy:n.y,x:S.x,y:S.y};setProg(Math.max(3,progN()));hideResult()});
+cv.addEventListener("pointermove",e=>{if(!ptrs.has(e.pointerId))return;ptrs.set(e.pointerId,toN(e));
+ if(pinch&&ptrs.size===2){const[a,b]=[...ptrs.values()];S.h=Math.min(.8,Math.max(.06,pinch.h*Math.hypot(a.x-b.x,a.y-b.y)/pinch.d));sync();draw();return}
+ if(drag){const n=toN(e);S.x=Math.min(.98,Math.max(.02,drag.x+n.x-drag.sx));S.y=Math.min(1,Math.max(0,drag.y+n.y-drag.sy));sync();draw()}});
+const endP=e=>{ptrs.delete(e.pointerId);if(ptrs.size<2)pinch=null;if(!ptrs.size)drag=null};
+cv.addEventListener("pointerup",endP);cv.addEventListener("pointercancel",endP);
+cv.addEventListener("wheel",e=>{if(!S.room||(!e.ctrlKey&&!e.altKey))return;e.preventDefault();S.h=Math.min(.8,Math.max(.06,S.h*(e.deltaY<0?1.05:.95)));sync();draw()},{passive:false});
+const bind=(id,fn)=>$(id).oninput=e=>{fn(+e.target.value);sync();draw();hideResult()};
+bind("#cScale",v=>S.h=v/100);bind("#cY",v=>S.y=v/100);bind("#cX",v=>S.x=v/100);bind("#cRot",v=>S.rot=v);bind("#cCable",v=>S.cable=v);bind("#cExp",v=>S.exp=v);
+$("#tFlip").onclick=()=>{S.flip=!S.flip;sync();draw();hideResult()};
+$("#tGlow").onclick=()=>{S.glow=!S.glow;sync();draw();hideResult()};
+$("#tReset").onclick=()=>{S.exp=100;defaultPlacement();draw();hideResult()};
+
+const samplePromise=cap("sample");
+function heuristic(){const p=curP();if(p.type==="table"){S.x=.7;S.y=.66;S.h=p.h}else{S.x=.5;S.y=.04;S.h=p.h}sync();draw()}
+$("#aiSuggest").onclick=async()=>{if(!S.room)await useSample();const btn=$("#aiSuggest"),out=$("#aiOut");const sample=await samplePromise;
+ if(!sample){heuristic();out.textContent="Ubicamos la pieza en una posición típica para su tipo; ajustala a mano.";return}
+ let lim=null;try{lim=await sample.limits()}catch(e){}
+ if(!lim||!lim.images){heuristic();out.textContent="El análisis de imágenes no está disponible en esta vista. Usamos una ubicación típica; ajustala a mano.";return}
+ btn.disabled=true;out.textContent="Analizando tu espacio…";
+ try{const c=document.createElement("canvas"),k=Math.min(1,1200/Math.max(cv.width,cv.height));c.width=Math.round(cv.width*k);c.height=Math.round(cv.height*k);c.getContext("2d").drawImage(S.room,0,0,c.width,c.height);
+  const blob=await new Promise(r=>c.toBlob(r,"image/jpeg",.85));const p=curP(),im=S.imgs[curV().cut];
+  const prompt=`Sos un diseñador de iluminación de interiores. La imagen es una foto de un ambiente real de un cliente.
+Producto a ubicar: "${p.name}" de Nelumbo Deco, ${p.type==="pendant"?"una lámpara COLGANTE que cuelga del techo":"un VELADOR de mesa que se apoya sobre una superficie (mesa de luz, aparador, escritorio)"}. Proporción ancho/alto: ${(im.width/im.height).toFixed(2)}.
+Devolvé SOLO un objeto JSON: {"x":número 0-1,"y":número 0-1,"height":número 0.06-0.8,"reason":"una oración breve en español rioplatense"}
+- x,y en coordenadas normalizadas de la imagen (0,0 arriba a la izquierda).
+- ${p.type==="pendant"?"(x,y) es el borde SUPERIOR de la lámpara: si se ve el techo, apenas debajo, sobre una mesa, cama o el centro del ambiente; si no se ve el techo, usá y=0.":"(x,y) es el punto donde se apoya la BASE sobre una superficie visible."}
+- height: altura visual de la lámpara como fracción de la altura de la imagen, a escala realista.
+- reason: por qué ese lugar, sin mencionar coordenadas.`;
+  const r=await sample.json(prompt,{images:[blob]});const num=(v,a,b)=>Math.min(b,Math.max(a,Number(v)));
+  if(r&&isFinite(r.x)&&isFinite(r.y)){const to={x:num(r.x,.02,.98),y:num(r.y,0,1),h:isFinite(r.height)?num(r.height,.06,.8):S.h};
+   if(anim)gsap.to(S,{...to,duration:1.2,ease:"expo.inOut",onUpdate:()=>{sync();draw()}});else{Object.assign(S,to);sync();draw()}
+   setProg(3);out.textContent=`“${String(r.reason||"Ubicación sugerida.").slice(0,240)}”`;track("studio_ai_suggest")}else throw{code:"invalid_json"}
+ }catch(e){const m={not_granted:"No se habilitó el uso de Claude en esta vista. Podés ubicar la pieza a mano.",rate_limited:"Hubo muchas consultas seguidas. Probá de nuevo en un rato.",image_rejected:"La IA no pudo leer esta foto. Probá con otra imagen.",refused:"La IA no pudo analizar esta foto. Probá con otra imagen."};out.textContent=m[e&&e.code]||"No pudimos obtener una sugerencia esta vez. Probá de nuevo o ubicá la pieza a mano."}
+ finally{btn.disabled=false}};
+
+const genMsgs=["Estamos imaginando tu espacio…","Una nueva perspectiva de la luz…","Tu ambiente está por transformarse."];
+let resURL=null,befURL=null,resBlob=null;
+function hideResult(){$("#result").hidden=true}
+async function composite(){const o=document.createElement("canvas");o.width=cv.width;o.height=cv.height;draw(o.getContext("2d"));const b=document.createElement("canvas");b.width=cv.width;b.height=cv.height;draw(b.getContext("2d"),{roomOnly:true});
+ resBlob=await new Promise(r=>o.toBlob(r,"image/jpeg",.9));const bb=await new Promise(r=>b.toBlob(r,"image/jpeg",.88));
+ if(resURL)URL.revokeObjectURL(resURL);if(befURL)URL.revokeObjectURL(befURL);resURL=URL.createObjectURL(resBlob);befURL=URL.createObjectURL(bb)}
+async function renderEngine(){if(!AI_RENDER_ENDPOINT)return null;const fd=new FormData();fd.append("room",S.file||resBlob);fd.append("productId",S.lamp);fd.append("consent",String(consented||S.isSample));fd.append("variant",curV().name);fd.append("placement",JSON.stringify({x:S.x,y:S.y,h:S.h,rot:S.rot,flip:S.flip}));const r=await fetch(AI_RENDER_ENDPOINT,{method:"POST",body:fd});if(!r.ok)throw new Error("render");return r.blob()}
+$("#revealBtn").onclick=async()=>{if(!S.room)await useSample();const gen=$("#gen"),msg=$("#genMsg");gen.hidden=false;setProg(4);let i=0;msg.textContent=genMsgs[0];const dur=reduce?.4:3.4;
+ const iv=setInterval(()=>{i=(i+1)%genMsgs.length;if(anim)gsap.fromTo(msg,{opacity:0,y:12,filter:"blur(6px)"},{opacity:1,y:0,filter:"blur(0px)",duration:.7});msg.textContent=genMsgs[i]},dur*1000/3);
+ if(anim){gsap.fromTo("#genBar",{scaleX:0},{scaleX:1,duration:dur,ease:"power2.inOut"});gsap.fromTo("#sweep",{"--sx":"0%"},{"--sx":"100%",duration:dur,ease:"power1.inOut"})}else $("#genBar").style.transform="scaleX(1)";
+ await composite();let label="Visualización orientativa · composición con la foto real de la pieza";
+ try{const ai=await renderEngine();if(ai){resBlob=ai;URL.revokeObjectURL(resURL);resURL=URL.createObjectURL(ai);label="Visualización generada con IA · orientativa"}}catch(e){label="El motor de IA no respondió. Te mostramos la composición orientativa."}
+ await new Promise(r=>setTimeout(r,dur*1000));clearInterval(iv);gen.hidden=true;
+ $("#afterImg").src=resURL;$("#beforeImg").src=befURL;$("#resLabel").textContent=label;$("#resEyebrow").textContent=`${curP().name}${hasVar(curP())?" · "+curV().name:""}`;updWa();
+ const r=$("#result");r.hidden=false;setCmp(anim?100:50);
+ if(anim){gsap.fromTo("#compare",{clipPath:"inset(0 0 100% 0)"},{clipPath:"inset(0 0 0% 0)",duration:1.3,ease:"expo.inOut"});const o={v:100};gsap.to(o,{v:50,duration:1.6,delay:1,ease:"expo.inOut",onUpdate:()=>setCmp(o.v)});gsap.fromTo(".res-side > *",{y:30,opacity:0},{y:0,opacity:1,stagger:.07,duration:1,delay:.5,ease:"expo.out"})}
+ setTimeout(()=>{if(lenis)lenis.scrollTo(r,{offset:-100,duration:1.4});else r.scrollIntoView({behavior:reduce?"auto":"smooth",block:"start"})},150);track("studio_render",{item_id:S.lamp})};
+function setCmp(v){$("#cmp").value=v;$(".compare .before").style.clipPath=`inset(0 ${100-v}% 0 0)`;$("#handle").style.left=v+"%"}
+$("#cmp").oninput=e=>setCmp(+e.target.value);
+$("#zoomBtn").onclick=()=>openLightbox(resURL,"Tu visualización");
+function updWa(){const p=curP();$("#aWa").href=waLink(`Hola Nelumbo, probé ${p.name}${hasVar(p)?" ("+curV().name+")":""} en mi casa con el Estudio visual y me encantó.${$("#waShare").checked?" Les adjunto la visualización.":""} ¿Me pasan precio y medidas?`)}
+$("#waShare").onchange=updWa;
+$("#aWa").addEventListener("click",()=>{track("whatsapp_from_studio",{item_id:S.lamp});if($("#waShare").checked)$("#actStatus").textContent="Descargá la visualización y adjuntala en el chat de WhatsApp."});
+$("#aBuy").onclick=()=>{addToCart(S.lamp,S.v,$("#afterImg"));setTimeout(()=>openOv(cartOv),800)};
+$("#aOther").onclick=()=>{hideResult();$$(".tabs button")[0].click();$("#app").scrollIntoView({behavior:reduce?"auto":"smooth",block:"start"})};
+const dlP=Promise.resolve({save:async({filename,data})=>{const u=URL.createObjectURL(data);const a=document.createElement("a");a.href=u;a.download=filename;a.click();setTimeout(()=>URL.revokeObjectURL(u),10000)}});
+$("#aDl").onclick=async()=>{const dl=await dlP,st=$("#actStatus");if(!dl||!resBlob){openLightbox(resURL,"Mantené presionada la imagen para guardarla");st.textContent="Mantené presionada (o clic derecho) la imagen para guardarla.";return}
+ try{await dl.save({filename:`nelumbo-${S.lamp}-visualizacion.jpg`,data:resBlob});st.textContent="Visualización descargada.";track("studio_download")}catch(e){if(e&&e.code==="declined")st.textContent="Descarga cancelada.";else{openLightbox(resURL,"Mantené presionada la imagen para guardarla");st.textContent="Mantené presionada (o clic derecho) la imagen para guardarla."}}};
+$("#aShare").onclick=()=>{copyText(`Mirá cómo quedaría ${curP().name} de Nelumbo Deco en mi casa. ${STORE}`);$("#actStatus").textContent="Texto copiado. Pegalo junto con la imagen descargada donde quieras compartirla."};
+Promise.all([loadImg("assets/img/ambiente-ejemplo.jpg"),loadImg(P[0].variants[0].cut)]).then(([room])=>{const k=Math.min(1,MAXW/Math.max(room.width,room.height));cv.width=Math.round(room.width*k);cv.height=Math.round(room.height*k);S.room=room;roomStats();$(".lamp-opt").setAttribute("aria-pressed","true");defaultPlacement();sync();draw()}).catch(()=>{});
+setTimeout(()=>lampOpts.forEach(o=>loadImg(o.v.cut).catch(()=>{})),3000);
+
+/* ═══════ CONCIERGE ═══════ */
+const Q=[{k:"ambiente",q:"¿Qué ambiente querés iluminar?",o:["Living","Comedor","Dormitorio","Cocina","Escritorio","Hall de entrada","Otro"]},{k:"metros",q:"¿Cuántos metros cuadrados tiene, más o menos?",o:["Menos de 10 m²","10 a 20 m²","20 a 35 m²","Más de 35 m²"]},{k:"techo",q:"¿Qué altura tiene el techo?",o:["Menos de 2,5 m","2,5 a 2,8 m","Más de 2,8 m","No sé"]},{k:"estilo",q:"¿Qué estilo te gusta?",o:["Natural y orgánico","Nórdico","Minimalista","Cálido y rústico"]},{k:"presupuesto",q:"¿Qué presupuesto tenés en mente? Los precios dependen de medida y material, y te los confirma el equipo.",o:["Ajustado","Intermedio","Prefiero ver opciones primero"]},{k:"funcion",q:"¿Buscás iluminación principal o decorativa?",o:["Principal","Decorativa","Para mesa de luz o lectura"]}];
+const log=$("#chatLog");let A={},qi=0,turns=[],busy=false;
+function addMsg(html,who="bot",cls=""){const d=document.createElement("div");d.className=`msg ${who} ${cls}`;d.innerHTML=html;log.appendChild(d);log.scrollTop=log.scrollHeight;if(anim)gsap.from(d,{y:16,opacity:0,duration:.7,ease:"expo.out"});return d}
+const think=()=>addMsg("<i></i><i></i><i></i>","bot","think");
+function ask(){const q=Q[qi];const t=think();setTimeout(()=>{t.remove();addMsg(esc(q.q));const d=addMsg(q.o.map(o=>`<button class="chip">${esc(o)}</button>`).join(""),"bot","opts");$$("button",d).forEach(b=>b.onclick=()=>{d.remove();answer(b.textContent)})},anim?550:0)}
+function answer(t){addMsg(esc(t),"user");A[Q[qi].k]=t;qi++;if(qi<Q.length)ask();else recommend()}
+const catTxt=()=>P.map(p=>`- id:${p.id} | ${p.name} | ${p.catLabel} | ${p.desc}${hasVar(p)?" | variantes: "+p.variants.map(v=>v.name).join(", "):""}`).join("\n");
+function ruleRecs(){const r=[],a=A;if(a.funcion?.startsWith("Para mesa")||a.ambiente==="Escritorio")r.push({id:"runa",reason:"Un velador de mesa da luz cercana y cálida para leer o trabajar."});if(a.techo==="Más de 2,8 m")r.push({id:"bali",reason:"Su forma alta y vertical aprovecha la altura del techo."});if(a.techo==="Menos de 2,5 m")r.push({id:"widya",reason:"Su perfil bajo cuida la circulación en techos bajos."});if(/Living|Comedor/.test(a.ambiente||""))r.push({id:"rinna",reason:"Difumina la luz hacia todo el ambiente, ideal sobre una mesa o en el centro del living."});if(a.ambiente==="Dormitorio")r.push({id:"danna",reason:"Su tejido envolvente suma textura y una luz suave para el descanso."});if(a.estilo==="Minimalista")r.push({id:"plegora",reason:"Sus pliegues geométricos suman diseño sin recargar."});if(a.funcion==="Principal"&&/Más de 35|20 a 35/.test(a.metros||""))r.push({id:"undha",reason:"Los dos tambores reparten la luz en capas, buena opción como luz principal en ambientes amplios."});
+ const FB={danna:"Su tejido envolvente suma textura y proyecta una trama suave sobre el techo.",rinna:"Su forma ovalada difumina la luz de manera pareja en todo el ambiente.",undha:"Los dos tambores reparten la luz en capas y le dan presencia al centro del espacio.",runa:"Un velador cálido para sumar un segundo punto de luz, cerca de donde leés o descansás."};["danna","rinna","undha","runa"].forEach(id=>r.push({id,reason:FB[id]}));const s=new Set();return r.filter(x=>byId(x.id)&&!s.has(x.id)&&s.add(x.id)).slice(0,3)}
+function showRecs(recs,intro){addMsg(esc(intro));const d=addMsg(`<div class="recs">${recs.map(r=>{const p=byId(r.id);return `<div class="rec"><div class="rph"><img src="${p.variants[0].cut}" alt="${esc(p.name)}"></div><div><h4>${esc(p.name)}</h4><p>${esc(r.reason)}</p><div class="links"><button class="link" data-open="${p.id}">Ver pieza</button><button class="link" data-try="${p.id}">Ver en mi casa</button><button class="link" data-add="${p.id}">Agregar</button></div></div></div>`}).join("")}</div>`,"bot");d.style.maxWidth="100%";
+ if(anim)gsap.from($$(".rec",d),{y:24,opacity:0,stagger:.12,duration:.9,ease:"expo.out"});
+ $$("[data-add]",d).forEach(b=>b.onclick=()=>addToCart(b.dataset.add,0,b.closest(".rec").querySelector("img")));
+ const sum=Q.map(q=>`${q.k}: ${A[q.k]}`).join(", ");addMsg(`¿Querés seguir con una persona? <a href="${waLink(`Hola Nelumbo, usé el Concierge de la web. Mi espacio: ${sum}. Me recomendaron ${recs.map(r=>byId(r.id).name).join(", ")}. ¿Me asesoran?`)}" target="_top" rel="noopener">Hablar con el equipo por WhatsApp</a>. También podés escribirme abajo.`);track("concierge_recommend",{items:recs.map(r=>r.id).join(",")})}
+async function recommend(){const t=think();const sample=await samplePromise;
+ if(sample){try{const prompt=`Sos el Concierge de iluminación de Nelumbo Deco, una marca de lámparas hechas a pedido. Recomendá entre 1 y 3 piezas SOLO de este catálogo (no inventes productos, precios, materiales ni medidas):
+${catTxt()}
+
+Respuestas del cliente:
+${Q.map(q=>`- ${q.q} → ${A[q.k]}`).join("\n")}
+
+Devolvé SOLO JSON: {"intro":"una oración cálida en español rioplatense","recs":[{"id":"id del catálogo","reason":"por qué encaja, 1 oración concreta basada en la forma visible de la pieza y el espacio"}]}`;
+  const r=await sample.json(prompt,{modelTier:"quick"});const ok=(r&&Array.isArray(r.recs))?r.recs.filter(x=>byId(String(x.id))).slice(0,3).map(x=>({id:String(x.id),reason:String(x.reason||"").slice(0,220)})):[];
+  if(ok.length){t.remove();showRecs(ok,String(r.intro||"Estas piezas encajan con tu espacio:").slice(0,200));return}}catch(e){if(e&&["not_granted","sampling_disabled"].includes(e.code))$("#ccMode").textContent="Asesor guiado"}}
+ else $("#ccMode").textContent="Asesor guiado";
+ setTimeout(()=>{t.remove();showRecs(ruleRecs(),"Según lo que me contaste, estas piezas encajan con tu espacio:")},anim?700:0)}
+$("#chatForm").onsubmit=async e=>{e.preventDefault();const inp=$("#chatIn"),t=inp.value.trim();if(!t||busy)return;inp.value="";addMsg(esc(t),"user");const sample=await samplePromise;
+ if(!sample){addMsg(`Para esa consulta te conviene hablar con el equipo: <a href="${waLink("Hola Nelumbo, tengo una consulta: "+t)}" target="_top" rel="noopener">escribir por WhatsApp</a>.`);return}
+ busy=true;const th=think();let b=null;
+ const rules=`Sos el Concierge de iluminación de Nelumbo Deco. Respondé en español rioplatense, breve (máx. 3 oraciones), cálido y concreto. Solo podés recomendar piezas de este catálogo:
+${catTxt()}
+Datos firmes: cada pieza se hace a pedido; se eligen medida, color y material; la lista de precios se pide por WhatsApp; la línea 3D sin stock demora 7 a 10 días; tejido manual unos 10 días según demanda; modelos de 50 a 80 cm a pedido. No inventes precios, medidas, materiales, plazos ni stock: si te preguntan eso, decí que lo confirma el equipo por WhatsApp.
+Contexto del cliente: ${Q.filter(q=>A[q.k]).map(q=>`${q.k}=${A[q.k]}`).join(", ")||"sin datos aún"}.`;
+ turns.push({role:"user",content:t});turns=turns.slice(-8);
+ try{const{text}=await sample([{role:"user",content:rules},{role:"assistant",content:"Entendido."},...turns],{cache:false,modelTier:"quick",onText:({text})=>{if(!b){th.remove();b=addMsg("")}b.textContent=text;log.scrollTop=log.scrollHeight}});turns.push({role:"assistant",content:text});if(!b){th.remove();b=addMsg("")}b.textContent=text}
+ catch(err){th.remove();if(!b)b=addMsg("");b.innerHTML=err&&err.text?esc(err.text):`No pude responder ahora. <a href="${waLink("Hola Nelumbo, tengo una consulta: "+t)}" target="_top" rel="noopener">Escribile al equipo por WhatsApp</a>.`;turns.pop()}
+ finally{busy=false}};
+function startCC(){log.innerHTML="";A={};qi=0;turns=[];addMsg("Hola. Soy el Concierge de Nelumbo. Te hago unas preguntas rápidas y te recomiendo piezas para tu espacio.");ask()}
+$("#ccRestart").onclick=startCC;
+if(anim){ScrollTrigger.create({trigger:".chat",start:"top 80%",once:true,onEnter:startCC})}else startCC();
+
+/* ═══════ Pro form ═══════ */
+$("#proForm").onsubmit=e=>{e.preventDefault();const n=$("#pfName"),m=$("#pfMail");let ok=true;[n,m].forEach(f=>{const bad=!f.value.trim()||(f.type==="email"&&!/^\S+@\S+\.\S+$/.test(f.value));f.parentElement.classList.toggle("err",bad);if(bad)ok=false});const out=$("#pfOut");
+ if(!ok){out.textContent="Completá nombre y un email válido para que podamos responderte.";return}
+ out.innerHTML=`Tu consulta está lista. <a href="${waLink(`Hola Nelumbo, soy ${n.value.trim()} (${m.value.trim()}). Consulta profesional: ${$("#pfType").value}. ${$("#pfMsg").value.trim()}`)}" target="_top" rel="noopener">Enviarla por WhatsApp →</a>`;track("generate_lead",{type:$("#pfType").value})};
+
+/* ═══════ SHOWROOM 3D (Three.js) ═══════ */
+(function showroom(){
+ const stageEl=$("#srStage");if(!stageEl)return;
+ const items=P.map(p=>({p,cut:p.variants[0].cut}));
+ const NI=items.length,STEP=Math.PI*2/NI,R=5.2;
+ let cur=0,angle=0,target=0,vel=0,dragging=false,lastX=0,lastT=0,inited=false,running=false,raf=0,on=true,zoom=false,auto=!reduce,autoT=0,lastInteract=performance.now();
+ const dotsEl=$("#srDots");dotsEl.innerHTML=items.map((it,i)=>`<button role="tab" aria-label="${esc(sn(it.p))}" aria-current="${i===0}" data-i="${i}"><i></i></button>`).join("");
+ function setInfo(i,instant){const p=items[i].p;const apply=()=>{$("#srIdx").textContent=String(i+1).padStart(2,"0");$("#srName").textContent=sn(p);$("#srCat").textContent=p.catLabel;$("#srDesc").textContent=p.desc;$$("#srDots button").forEach((b,k)=>b.setAttribute("aria-current",k===i))};
+  if(!anim||instant){apply();return}
+  gsap.to(["#srName","#srCat","#srDesc"],{y:-18,opacity:0,duration:.25,ease:"power2.in",stagger:.03,onComplete:()=>{apply();gsap.fromTo(["#srName","#srCat","#srDesc"],{y:24,opacity:0},{y:0,opacity:1,duration:.8,stagger:.06,ease:"expo.out"})}});
+  gsap.fromTo("#srBar",{scaleX:0},{scaleX:1,duration:.9,ease:"expo.out"})}
+ setInfo(0,true);
+ const go=i=>{const d=((i-cur)%NI+NI)%NI;const delta=d>NI/2?d-NI:d;target=-(cur+delta)*STEP;lastInteract=performance.now()};
+ $("#srPrev").onclick=()=>go(cur-1);$("#srNext").onclick=()=>go(cur+1);
+ $$("#srDots button").forEach(b=>b.onclick=()=>go(+b.dataset.i));
+ $("#srOpen").onclick=()=>openProduct(items[cur].p.id,0);
+ $("#srTry").onclick=()=>{selectLamp(items[cur].p.id,0);goTo("#studio")};
+ $("#srLight").onclick=e=>{on=!on;e.currentTarget.setAttribute("aria-pressed",on);e.currentTarget.textContent=on?"Luz encendida":"Luz apagada";track("showroom_light",{on})};
+ $("#srZoom").onclick=e=>{zoom=!zoom;e.currentTarget.setAttribute("aria-pressed",zoom);e.currentTarget.textContent=zoom?"Alejar":"Acercar"};
+ $("#srAuto").onclick=e=>{auto=!auto;e.currentTarget.setAttribute("aria-pressed",auto)};
+ if(reduce){$("#srAuto").setAttribute("aria-pressed","false")}
+ stageEl.tabIndex=0;stageEl.addEventListener("keydown",e=>{if(e.key==="ArrowRight"){e.preventDefault();go(cur+1)}if(e.key==="ArrowLeft"){e.preventDefault();go(cur-1)}});
+
+ function init(){
+  if(inited)return;inited=true;
+  if(!window.THREE){$("#srFallback").hidden=false;return}
+  let renderer;try{renderer=new THREE.WebGLRenderer({antialias:true,alpha:false,powerPreference:"high-performance"})}catch(e){$("#srFallback").hidden=false;return}
+  const T3=THREE;renderer.setPixelRatio(Math.min(devicePixelRatio||1,2));renderer.outputEncoding=T3.sRGBEncoding;renderer.setClearColor(0xede5d9,1);
+  stageEl.appendChild(renderer.domElement);
+  const scene=new T3.Scene();scene.fog=new T3.Fog(0xede5d9,9,22);
+  const cam=new T3.PerspectiveCamera(38,1,.1,60);
+  const ring=new T3.Group();scene.add(ring);
+  const loader=new T3.TextureLoader();
+  const canvasTex=(w,h,draw)=>{const c=document.createElement("canvas");c.width=w;c.height=h;draw(c.getContext("2d"),w,h);const t=new T3.CanvasTexture(c);t.encoding=T3.sRGBEncoding;return t};
+  const glowTex=canvasTex(256,256,(x,w,h)=>{const g=x.createRadialGradient(w/2,h/2,0,w/2,h/2,w/2);g.addColorStop(0,"rgba(255,214,150,1)");g.addColorStop(.18,"rgba(255,180,100,.55)");g.addColorStop(.5,"rgba(255,150,70,.12)");g.addColorStop(1,"rgba(255,140,60,0)");x.fillStyle=g;x.fillRect(0,0,w,h)});
+  const dotTex=canvasTex(64,64,(x,w,h)=>{const g=x.createRadialGradient(32,32,0,32,32,32);g.addColorStop(0,"rgba(255,230,190,1)");g.addColorStop(1,"rgba(255,230,190,0)");x.fillStyle=g;x.fillRect(0,0,w,h)});
+  const floorTex=canvasTex(512,512,(x,w,h)=>{const g=x.createRadialGradient(w/2,h/2,0,w/2,h/2,w/2);g.addColorStop(0,"rgba(211,196,176,.55)");g.addColorStop(.55,"rgba(230,219,201,.85)");g.addColorStop(1,"rgba(237,229,217,1)");x.fillStyle=g;x.fillRect(0,0,w,h)});
+  // floor
+  const floor=new T3.Mesh(new T3.PlaneGeometry(40,40),new T3.MeshBasicMaterial({map:floorTex,transparent:true,depthWrite:false}));floor.rotation.x=-Math.PI/2;floor.position.y=0;floor.renderOrder=2;scene.add(floor);
+  const wallTex=canvasTex(512,256,(x,w,h)=>{x.fillStyle="#ede5d9";x.fillRect(0,0,w,h);const g=x.createRadialGradient(w/2,h*.62,0,w/2,h*.62,w*.55);g.addColorStop(0,"rgba(255,247,229,.55)");g.addColorStop(.45,"rgba(220,202,178,.35)");g.addColorStop(1,"rgba(237,229,217,0)");x.fillStyle=g;x.fillRect(0,0,w,h)});
+  const back=new T3.Mesh(new T3.PlaneGeometry(56,28),new T3.MeshBasicMaterial({map:wallTex,fog:false}));back.position.set(0,6,-10);scene.add(back);
+  // floor rings (exhibition circle)
+  const ringLine=new T3.Mesh(new T3.RingGeometry(R-.004,R+.004,160),new T3.MeshBasicMaterial({color:0xC4A57F,transparent:true,opacity:.22,side:T3.DoubleSide,depthWrite:false}));ringLine.rotation.x=-Math.PI/2;ringLine.position.y=.012;ringLine.renderOrder=3;scene.add(ringLine);
+  // light pool at front position
+  const pool=new T3.Mesh(new T3.PlaneGeometry(5.5,5.5),new T3.MeshBasicMaterial({map:glowTex,transparent:true,blending:T3.AdditiveBlending,depthWrite:false,opacity:.5}));pool.rotation.x=-Math.PI/2;pool.position.set(0,.02,R);pool.renderOrder=4;scene.add(pool);
+  // cone shader
+  const coneMat=new T3.ShaderMaterial({transparent:true,depthWrite:false,blending:T3.AdditiveBlending,side:T3.DoubleSide,uniforms:{uO:{value:.0},uC:{value:new T3.Color(1,.78,.5)}},
+   vertexShader:"varying vec2 vUv;varying vec3 vN;varying vec3 vV;void main(){vUv=uv;vec4 mv=modelViewMatrix*vec4(position,1.);vN=normalize(normalMatrix*normal);vV=normalize(-mv.xyz);gl_Position=projectionMatrix*mv;}",
+   fragmentShader:"uniform float uO;uniform vec3 uC;varying vec2 vUv;varying vec3 vN;varying vec3 vV;void main(){float f=pow(abs(dot(vN,vV)),2.2);float a=uO*f*smoothstep(0.,1.,vUv.y)*.55;gl_FragColor=vec4(uC*a,a);}"});
+  const cone=new T3.Mesh(new T3.CylinderGeometry(.25,2.4,3.6,48,1,true),coneMat);cone.renderOrder=5;scene.add(cone);
+  // dust
+  const DN=260,dpos=new Float32Array(DN*3),dsp=[];for(let i=0;i<DN;i++){dpos[i*3]=(Math.random()-.5)*4;dpos[i*3+1]=Math.random()*4;dpos[i*3+2]=R+(Math.random()-.5)*3;dsp.push(.05+Math.random()*.12)}
+  const dg=new T3.BufferGeometry();dg.setAttribute("position",new T3.BufferAttribute(dpos,3));
+  const dust=new T3.Points(dg,new T3.PointsMaterial({map:dotTex,size:.045,transparent:true,opacity:.0,blending:T3.AdditiveBlending,depthWrite:false,sizeAttenuation:true}));dust.renderOrder=6;scene.add(dust);
+  // items
+  const objs=items.map((it,i)=>{const g=new T3.Group();const a=i*STEP;g.position.set(Math.sin(a)*R,0,Math.cos(a)*R);ring.add(g);
+   const p=it.p,isTable=p.type==="table";const hgt=isTable?1.55:1.45*(p.h/.32);
+   const pivot=new T3.Group();pivot.position.y=isTable?0:3.75;g.add(pivot);
+   const mat=new T3.MeshBasicMaterial({transparent:true,depthWrite:false,color:0x666666,alphaTest:.02,side:T3.DoubleSide});
+   const mesh=new T3.Mesh(new T3.PlaneGeometry(1,1),mat);mesh.renderOrder=8;pivot.add(mesh);
+   const rmat=new T3.MeshBasicMaterial({transparent:true,depthWrite:false,color:0x666666,opacity:.16,side:T3.DoubleSide});
+   const refl=new T3.Mesh(new T3.PlaneGeometry(1,1),rmat);refl.renderOrder=1;g.add(refl);
+   const glow=new T3.Sprite(new T3.SpriteMaterial({map:glowTex,blending:T3.AdditiveBlending,transparent:true,depthWrite:false,opacity:0}));glow.renderOrder=7;pivot.add(glow);
+   let cord=null,ped=null;
+   if(!isTable){cord=new T3.Mesh(new T3.CylinderGeometry(.008,.008,6,6),new T3.MeshBasicMaterial({color:0x2a2622}));cord.position.y=3;pivot.add(cord);}
+   else{ped=new T3.Mesh(new T3.BoxGeometry(1.5,1.0,1.5),new T3.MeshBasicMaterial({color:0xcbbbA5}));ped.position.y=.5;g.add(ped);const top=new T3.Mesh(new T3.PlaneGeometry(1.5,1.5),new T3.MeshBasicMaterial({color:0xe0d3c0}));top.rotation.x=-Math.PI/2;top.position.y=1.001;g.add(top);pivot.position.y=1.0}
+   const o={g,pivot,mesh,refl,glow,mat,rmat,p,isTable,hgt,ready:false,phase:Math.random()*6,cy:isTable?1.8:3.0};
+   loader.load(it.cut,tex=>{tex.encoding=T3.sRGBEncoding;tex.anisotropy=renderer.capabilities.getMaxAnisotropy();mat.map=tex;rmat.map=tex;mat.needsUpdate=rmat.needsUpdate=true;
+     const asp=tex.image.width/tex.image.height,w=hgt*asp;mesh.scale.set(w,hgt,1);
+     if(isTable){mesh.position.y=hgt/2;refl.scale.set(w,-hgt,1);refl.position.y=-hgt/2}else{mesh.position.y=-hgt/2;const bottom=pivot.position.y-hgt;refl.scale.set(w,-hgt,1);refl.position.y=-(bottom+hgt/2)}
+     glow.position.set((p.bulb[0]-.5)*w,isTable?hgt*(1-p.bulb[1]):-hgt*p.bulb[1],-.05);glow.scale.set(hgt*3.2,hgt*3.2,1);o.cy=isTable?1+hgt/2:pivot.position.y-hgt/2;o.ready=true});
+   return o});
+  // sizing
+  function size(){const w=stageEl.clientWidth,h=stageEl.clientHeight;renderer.setSize(w,h,false);cam.aspect=w/h;cam.fov=w<700?52:38;cam.updateProjectionMatrix()}
+  size();addEventListener("resize",size);
+  // input
+  let px=0,py=0,sx=0,sy=0;
+  stageEl.addEventListener("pointermove",e=>{const r=stageEl.getBoundingClientRect();px=((e.clientX-r.left)/r.width-.5)*2;py=((e.clientY-r.top)/r.height-.5)*2;
+   if(!dragging)return;const now=performance.now(),dx=e.clientX-lastX;angle+=dx*.0062;target=angle;vel=dx/Math.max(1,now-lastT)*16*.0062;lastX=e.clientX;lastT=now;lastInteract=now});
+  stageEl.addEventListener("pointerdown",e=>{if(e.target.closest("button,a"))return;dragging=true;lastX=e.clientX;lastT=performance.now();vel=0;stageEl.classList.add("grab");try{stageEl.setPointerCapture(e.pointerId)}catch(_){}});
+  const up=()=>{if(!dragging)return;dragging=false;stageEl.classList.remove("grab");const proj=angle+vel*14;target=Math.round(proj/STEP)*STEP;lastInteract=performance.now()};
+  stageEl.addEventListener("pointerup",up);stageEl.addEventListener("pointercancel",up);
+  stageEl.addEventListener("dblclick",()=>$("#srZoom").click());
+  // loop
+  let t0=performance.now(),camZ=R+5,camY=2.6,lookY=2.6,lightK=1;
+  function frame(now){raf=requestAnimationFrame(frame);const dt=Math.min(.05,(now-t0)/1000);t0=now;const t=now/1000;
+   if(auto&&!dragging&&now-lastInteract>5000){autoT+=dt;if(autoT>3.6){autoT=0;go(cur+1);lastInteract=now-5000}}else autoT=0;
+   if(!dragging)angle+=(target-angle)*(1-Math.pow(.0009,dt));
+   ring.rotation.y=angle;
+   const idx=((Math.round(-angle/STEP)%NI)+NI)%NI;if(idx!==cur){cur=idx;setInfo(cur)}
+   sx+=(px-sx)*.05;sy+=(py-sy)*.05;
+   const fo0=objs[cur],mob=stageEl.clientWidth<700;const cyT=(fo0?fo0.cy:2.6)-(mob?(fo0&&fo0.isTable?.22:.5):.05);lookY+=(cyT-lookY)*.06;
+   const zt=zoom?R+(mob?3.3:2.9):R+(mob?4.4:4.8);camZ+=(zt-camZ)*.06;camY+=((lookY+.15)-camY)*.06;
+   cam.position.set(sx*.55,camY-sy*.22,camZ);cam.lookAt(sx*.12,lookY,R);
+   lightK+=((on?1:0)-lightK)*.08;
+   let frontness=0;
+   objs.forEach((o,i)=>{const a=i*STEP+angle;o.g.rotation.y=Math.atan2(cam.position.x-Math.sin(a)*R,cam.position.z-Math.cos(a)*R)-angle;
+     const f=Math.pow(Math.max(0,Math.cos(a)),8);if(f>frontness)frontness=f;
+     const lit=.34+.66*f*(.4+.6*lightK);const c=Math.min(1,lit*(f>.5?1.02:1));
+     o.mat.color.setRGB(c,c*.98,c*.95);o.rmat.color.setRGB(c*.9,c*.85,c*.8);o.rmat.opacity=.12+.08*f;
+     o.glow.material.opacity=f*lightK*.7;
+     if(!o.isTable&&!reduce)o.pivot.rotation.z=Math.sin(t*.7+o.phase)*.018*(1+f);
+     if(f>.5){o.pivot.rotation.y=sx*.12*f}else o.pivot.rotation.y*=.9;
+   });
+   const fo=objs[cur];
+   coneMat.uniforms.uO.value=lightK*frontness*(fo&&fo.isTable?.0:.9);
+   cone.position.set(0,(fo&&!fo.isTable)?(3.75-fo.hgt*.62-1.8):0,R);
+   pool.material.opacity=.55*lightK*frontness;pool.scale.setScalar(fo&&fo.isTable?.55:1);
+   dust.material.opacity=.55*lightK*frontness;
+   const pa=dg.attributes.position.array;if(!reduce)for(let i=0;i<DN;i++){pa[i*3+1]+=dsp[i]*dt*.35;pa[i*3]+=Math.sin(t*.4+i)*.0008;if(pa[i*3+1]>4.2)pa[i*3+1]=0}dg.attributes.position.needsUpdate=true;
+   renderer.render(scene,cam)}
+  function start(){if(running)return;running=true;t0=performance.now();raf=requestAnimationFrame(frame)}
+  function stop(){running=false;cancelAnimationFrame(raf)}
+  new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting?start():stop()),{threshold:.02}).observe(stageEl);
+  document.addEventListener("visibilitychange",()=>document.hidden?stop():null);
+ }
+ new IntersectionObserver((es,ob)=>{if(es.some(e=>e.isIntersecting)){init();ob.disconnect()}},{rootMargin:"600px 0px"}).observe(stageEl);
+ if(anim){const h=$("#showroom .sr-top h2");if(h){const ws=splitWords(h);gsap.from(ws,{yPercent:110,rotate:3,duration:1.4,stagger:.07,ease:"expo.out",scrollTrigger:{trigger:"#showroom",start:"top 70%"}})}}
+})();
+
+})();
+</script>
+
+</body></html>
